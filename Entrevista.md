@@ -6,7 +6,7 @@ Thaynan Leocadio: Oi! Você já se encontrou em uma situação onde não sabia o
 O quanto isso facilitaria  a sua vida?
 <h2> Resposta </h2>
 
-Thamyres Leocadio: Oi, boa noite! Nossa... eu achei muito legal a ideia desse site porque teríamos a capacidade de poder criar novas receitas com tudo que a gente tem em casa, sabe!? As vezes a gente tem todos os ingredientes, mas só que não vem ideias porque por exemplo as vezes eu tenho o arroz, tenho o frango, mas eu não quero fazer um risoto eu quero fazer um outro tipo de receita. E se eu puder colocar tudo que eu tenho que aparecem ideias de cardápios diferenciados, diversificados para que eu possa fazer vários tipos de comidas a gente nunca vai enjooar do que temos em casa, entendeu!? Também não vai precisar sair no meio de um dia corrido para pode passar no mercado e tal... a gente já consegue se virar com o que a gente tem de maneira bem bacana e bem legal podendo fugir daquele trivial, sabe!? "arroz, beijão e bife". A gente coloca o que a gente tem de ingredientes e eu acho assim, é muito legal legal mesmo! Independente de almoço, jantar, café da manhã... sabe!? Ideias que a gente possa variar o cardápio ela deixa sempre uma refeição saudável, alegre...
+Thamyres Leocadio: Oi, boa noite! Nossa... eu achei muito legal a ideia desse site porque teríamos a capacidade de poder criar novas receitas com tudo que a gente tem em casa, sabe!? As vezes a gente tem todos os ingredientes, mas só que não vem ideias porque por exemplo as vezes eu tenho o arroz, tenho o frango, mas eu não quero fazer um risoto eu quero fazer um outro tipo de receita. E se eu puder colocar tudo que eu tenho que aparecem ideias de cardápios diferenciados, diversificados para que eu possa fazer vários tipos de comidas a gente nunca vai enjooar do que temos em casa, entendeu!? Também não vai precisar sair no meio de um dia corrido para pode passar no mercado e tal... a gente já consegue se virar com o que a gente tem de maneira bem bacana e bem legal podendo fugir daquele trivial, sabe!? "arroz, feijão e bife". A gente coloca o que a gente tem de ingredientes e eu acho assim, é muito legal legal mesmo! Independente de almoço, jantar, café da manhã... sabe!? Ideias que a gente possa variar o cardápio ela deixa sempre uma refeição saudável, alegre...
 
 <h2> Segunda Pergunta </h2>
 
@@ -18,11 +18,11 @@ Thamyres Leocadio: Sim, sim achei a ideia bem bacana mesmo, sabe!? E assim, a ge
 
 <h2> Terceira Pergunta </h2>
 
-Thaynan Leocadio: Qual a frequência em que você utiliza sites como ["Tudogostoso"](https://www.tudogostoso.com.br/), "Tastemade.com.br"? Esses sites são referência no brasil no quesito receita, há alguma fórmula secreta acerca de tanto sucesso?
+Thaynan Leocadio: Qual a frequência em que você utiliza sites como ["Tudogostoso"](https://www.tudogostoso.com.br/) e o ["Tastemade"](https://www.tastemade.com.br/)? Esses sites são referência no brasil no quesito receita, há alguma fórmula secreta acerca de tanto sucesso?
 
 <h2> Resposta </h2>
 
-Thamyres Leocadio: Então, eu uso esses sites, principalmente o site "Tudogostoso" com bastante frequência, acho que... pelo menos uma vez por semana eu dou uma olhadinha em receitas que as vezes até algumas coisas que são bem simples eu gosto de olhar porque dicas nunca são demais e a gente consegue seguir um padrão de cozimento e tal... de tempo de preparo, isso é bem legal! Eu acho que o segredo para o sucesso desses sites é a maneira direta que eles agem, não ficam enrolando e tal... dizem os ingredientes, explicam a receita e pronto! Não fica aquela enrolação de muito texto, muita coisas escritas e são bem diretos. Eu acho que esse é o segredo do sucesso deles.
+Thamyres Leocadio: Então, eu uso esses sites, principalmente o site ["Tudogostoso"](https://www.tudogostoso.com.br/) com bastante frequência, acho que... pelo menos uma vez por semana eu dou uma olhadinha em receitas que as vezes até algumas coisas que são bem simples eu gosto de olhar porque dicas nunca são demais e a gente consegue seguir um padrão de cozimento e tal... de tempo de preparo, isso é bem legal! Eu acho que o segredo para o sucesso desses sites é a maneira direta que eles agem, não ficam enrolando e tal... dizem os ingredientes, explicam a receita e pronto! Não fica aquela enrolação de muito texto, muita coisas escritas e são bem diretos. Eu acho que esse é o segredo do sucesso deles.
 
 <h2> Quarta Pergunta </h2>
 
