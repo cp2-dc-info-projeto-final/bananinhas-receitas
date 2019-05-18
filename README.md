@@ -18,3 +18,4 @@ REQUISITOS NÃO FUNCIONAIS
 3- Após a inserção de ingredientes o site irá sugerir as receitas que estão armazenadas no banco de dados.
 4- As receitas que serão sugeridas estarão armazenadas em um banco de dados.
 5- Os filtros estarão dispostas no menu do site para o usuário clicar e ter seus resultados filtrados.
+ 
