@@ -2,7 +2,7 @@
 
 ## Sumário
 
-### [Requisitos Funcionais](#Requisitos-Funcionais)
+### Requisitos Funcionais
 
 - [RF01](#RF01) <br>
 - [RF02](#RF02) <br>
@@ -13,7 +13,7 @@
 
 ##
 
-### [Requisitos Não Funcionais](#Requisitos-Não-Funcionais)
+### Requisitos Não Funcionais
 
 - [RNF01](#RNF01) <br>
 - [RNF02](#RNF02) <br>
@@ -23,7 +23,7 @@
 
 ##
 
-### Requisitos-Funcionais
+### Requisitos Funcionais
 
 ### RF01
 O usuário deverá fazer cadastro, com nome de usuário, e-mail e senha;<br>
@@ -40,7 +40,7 @@ O site terá alguns filtros que irão listar receitas de acordo com a necessidad
 
 ##
 
-### Requisitos-Nao-Funcionais
+### Requisitos Não Funcionais
 
 ### RNF01
 O usuário vai inserir suas informações que será armazenada em um banco de dados, que somente o administrador terá acesso.<br>
