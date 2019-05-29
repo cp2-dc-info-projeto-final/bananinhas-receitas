@@ -2,7 +2,7 @@
 
 ## Sumário
 
-### [Requisistos Funcionais](#requisitos-funcionais)
+### [Requisitos Funcionais](#requisitos-funcionais)
 
 - [RF01](#RF01) <br>
 - [RF02](#RF02) <br>
