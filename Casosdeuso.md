@@ -33,10 +33,10 @@ Se não houver nenhum erro o sistema fará o cadastro conforme os dados do usuá
 <h3>CDU 02- Login </h3>
 
 
-Atores: Estar logado
+Atores: cliente
 
 
-Pré-Condições: Possuir um cadastro no site.
+Pré-Condições:Estar logado.
 
 
 
@@ -67,7 +67,7 @@ Fluxo Principal:
 <h3>CDU 04- Pesquisar por receitas.</h3>
 
 
-Atores: 
+Atores: Cliente
 
 
 Pré-Requisitos: Não possui 
