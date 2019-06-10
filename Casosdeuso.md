@@ -42,7 +42,7 @@ Pré-Condições:Estar logado.
 
 Fluxo Principal:
 
-1) O usuário entra com os dados cadastrados no site, CPF ou  email ou  telefone e senha. Caso haja consonância com dados cadastrados ele poderá entrar em sua conta.
+1) O usuário entra com os dados cadastrados no site, email ou  telefone e senha. Caso haja consonância com dados cadastrados ele poderá entrar em sua conta.
 
  
 2) Será redirecionado para a home do site. Todos os usuários possuem a mesma home, não sendo influenciadas por histórico de pesquisas
