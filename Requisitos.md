@@ -35,8 +35,7 @@ O usuário deverá salvar suas receitas favoritas e os ingredientes que possui e
 O usuário deverá enviar sua sugestão de receita;<br>
 ### RF05
 O site enviará ao usuário sugestão de receitas após o mesmo inserir os ingredientes;<br>
-### RF06
-O site terá alguns filtros que irão listar receitas de acordo com a necessidade do cliente.<br>
+
 
 ##
 
@@ -53,4 +52,5 @@ As receitas que serão sugeridas estarão armazenadas em um banco de dados.<br>
 ### RNF05
 Os filtros estarão dispostas no menu do site para o usuário clicar e ter seus resultados filtrados.
 
- 
+ ### RF06
+O site terá alguns filtros que irão listar receitas de acordo com a necessidade do cliente.<br>
