@@ -20,7 +20,7 @@
 - [RNF03](#RNF03) <br>
 - [RNF04](#RNF04) <br>
 - [RNF05](#RNF05) <br>
-- [RF06](#RNF06)
+- [RNF06](#RF06)
 
 ##
 
