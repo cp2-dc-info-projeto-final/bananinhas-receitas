@@ -1,12 +1,14 @@
 <html>
 <title>Bananinhas Receitas</title>
+
 <head>
-<meta charset="utf-8"/>
-<link rel='stylesheet' type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type="text/css" href="style.css">
 </head>
+
 <body>
 
-<!-- <?php
+    <!-- <?php
 $nome   = $_POST ["nome"];  //atribuição do campo "nome" vindo do formulário para variavel  
 $email  = $_POST ["email"]; //atribuição do campo "email" vindo do formulário para variavel
 $tel    = $_POST ["telefone"];  //atribuição do campo "telefone" vindo do formulário para variavel
@@ -31,41 +33,41 @@ mysql_query($query,$conexao);
 echo "Seu cadastro foi realizado com sucesso!<br>Agradecemos a atenção.";
 ?> -->
 
-<fieldset>
-<div id="Cad"></div>
-<form action="#" method="post" id="formCad">
-	<h1> Cadastramento de usuário </h1>
+    <fieldset>
+        <div id="Cad"></div>
+        <form action="#" method="post" id="formCad">
+            <h1> Cadastramento de usuário </h1>
             <div class="campo">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" style="width: 20em" value="">
             </div>
-            
-        <div class="campo">
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" style="width: 20em" value="">
-        </div><br>
-        <div class="campo">
-            <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
-        </div>
 
-        <div class="campo">
-            <label>Sexo:</label>
-            <label>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" style="width: 20em" value="">
+            </div><br>
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+            </div>
+
+            <div class="campo">
+                <label>Sexo:</label>
+                <label>
                 <input type="radio" name="sexo" value="masculino"> Masculino
             </label>
-            <label>
+                <label>
                 <input type="radio" name="sexo" value="feminino"> Feminino
             </label>
-            <label>
+                <label>
                 <input type="radio" name="sexo" value="outro"> Outro
             </label>
-        </div>
+            </div>
 
-        <div class=campo>
-        <label for="Data de nascimento">Data de nascimento: </label>
-        <input type="Date" id="dataNascimento" />
-        </div>
+            <div class=campo>
+                <label for="Data de nascimento">Data de nascimento: </label>
+                <input type="Date" id="dataNascimento" />
+            </div>
 
             <div class="campo">
                 <label for="nome">Senha:</label>
@@ -74,31 +76,32 @@ echo "Seu cadastro foi realizado com sucesso!<br>Agradecemos a atenção.";
                 <input type="password" id="senha2" style="width: 20em" value="">
             </div>
 
-        <button type="submit" name="enviar">Enviar</button>
-        <button type="submit" name="limpar">Limpar</button>
+            <button type="submit" name="enviar">Enviar</button>
+            <button type="submit" name="limpar">Limpar</button>
 
-</form>
+        </form>
 
-</fieldset>
+    </fieldset>
 
-<fieldset>
+    <fieldset>
 
-<div id="Log">
-<form action="#" method="get" id="formLog">
-	<h1>Login</h1>
-            <div class="campo">
-                <label for="nome">Email:</label>
-                <input type="text" id="email" name="email" style="width: 20em" value="">
-            </div>
+        <div id="Log">
+            <form action="#" method="get" id="formLog">
+                <h1>Login</h1>
+                <div class="campo">
+                    <label for="nome">Email:</label>
+                    <input type="text" id="email" name="email" style="width: 20em" value="">
+                </div>
 
-            <div class="campo">
-                <label for="nome">Senha:</label>
-                <input type="password" id="senha" name="senha" style="width: 20em" value="">
-            </div>
-		<button type="submit" name="login">Logar</button>
-</form>
-</div>
-</fieldset>
+                <div class="campo">
+                    <label for="nome">Senha:</label>
+                    <input type="password" id="senha" name="senha" style="width: 20em" value="">
+                </div>
+                <button type="submit" name="login">Logar</button>
+            </form>
+        </div>
+    </fieldset>
 
 </body>
+
 </html>
