@@ -7,6 +7,6 @@ tel int,
 senha varchar(30),
 senha2 varchar(30),
 sexo varchar(30),
-DataNasc date,
+DataNasc date
 );
 
