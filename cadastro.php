@@ -1,8 +1,13 @@
 <?php
     $nome = $_POST["nome"];
     $email = $_POST["email"];
-    $senha = $_POST["senha"];
-    $hash_da_senha = password_hash($senha, PASSWORD_DEFAULT);
+    if(senha == senha2){
+        $senha = $_POST["senha"];
+        $hash_da_senha = password_hash($senha, PASSWORD_DEFAULT);}
+    else{
+        echo "Senhas incompatíveis";  
+    }
+    
 
     echo "$nome<br/>";
     echo "$email<br/>";
