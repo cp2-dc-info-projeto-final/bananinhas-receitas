@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <html lang="pt-br">
 
 <head>
@@ -17,6 +21,14 @@
         <div class="toplayer">
             <div class="left">
                 <div class="content">
+
+        <?php
+        if(isset($_SESSION['msg'])){
+          echo $_SESSION['msg'];
+          unset($_SESSION['msg']);
+        }
+        ?>
+
                     <h2><b>REGISTRAR<b></h2>
           <form action="cadastro.php" method="post"> 
             <div class="form-group">
@@ -50,16 +62,23 @@
       
       <div class="right">
         <div class="content">
+            <?php
+        if(array_key_exists('erro', $_SESSION) == true){
+          $erro = $_SESSION["erro"];
+          echo "<br><b>$erro</b>";
+          session_unset();
+          } 
+            ?> 
           <h2><b>LOGIN<b></h2>
-          <form action="login.php" method="post" onsubmit="return false;"> 
+          <form action="login.php" method="post"> 
         <div class="form-group">
-          <input type="text" id="nome" placeholder="Nome de usuário">
+          <input type="text" id="email" placeholder="Email">
           <input type="password" id="senha" placeholder="Senha">
-         </div>        
+         </div>         
           <button id="goright" class="off">Criar</button>
-          <input type="submit" id="enviar" value="Logar">
-          <button id="goright" class="recovery">Esqueceu a senha?</button>
-           </form>
+          <input type="submit" id="enviar" value="Logar"> 
+           </form>   
+                 
           </div>
         </div>    
       </div>

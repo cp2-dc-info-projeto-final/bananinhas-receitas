@@ -1,33 +1,42 @@
 <?php
     $nome = $_POST["nome"];
     $email = $_POST["email"];
-    if(senha == senha2){
-        $senha = $_POST["senha"];
-        $hash_da_senha = password_hash($senha, PASSWORD_DEFAULT);}
-    else{
-        echo "Senhas incompatíveis";  
+    $senha = $_POST["senha"];
+    $senha2 = $_POST["senha2"];
+    session_start();
+    if ($senha != $senha2) {    
+        $erro = "As senhas não coincidem";        
+        $_SESSION["erro"] = $erro;
+        header("Location: LoginCasdastro.php");
+        exit();
     }
-    
 
-    echo "$nome<br/>";
-    echo "$email<br/>";
-    echo "$hash_da_senha<br/>";
-
-    $connection = mysqli_connect("localhost", "root", "", "BananaSQL");
+    # password hash
+    $hash = password_hash($senha, PASSWORD_DEFAULT);
+    $connection = mysqli_connect("localhost", "root", "", "bananasql");
+ 
+    // Check connection
     if($connection === false){
-        die("Deu ruim na conexão!" . mysqli_connect_error());
+        die("Deu ruim mano!" . mysqli_connect_error());
     }
-
+    $sql = "SELECT id FROM cliente WHERE email='$email'";
+    $result = mysqli_query($connection, $sql);
+    $erro = "";
     
-    $sql = "INSERT INTO cliente (nome, email, senha)    
-    VALUES ('$nome', '$email', '$hash_da_senha')";
-
-    if(mysqli_query($connection, $sql)){
-    echo "Cadastro Concluído";
-    } else{
-    echo "Deu ruim no cadastro! $sql. " . mysqli_error($connection);
+    if (mysqli_num_rows($result) > 0) {
+        $erro = "E-mail indisponível";        
+        $_SESSION["erro"] = $erro;
+        header("Location: LoginCasdastro.php");
+        exit();
     }
-
+    $sql = "INSERT INTO cliente (nome, email, senha) VALUES
+            ('$nome', '$email', '$hash')";
+    if(mysqli_query($connection, $sql)){
+        session_unset();
+        header("Location: LoginCasdastro.php");
+        exit();
+    } else{
+        die("Deu ruim no cadastro $sql. " . mysqli_error($connection));
+    }
     mysqli_close($connection);
-
 ?>

@@ -1,6 +1,7 @@
 use bananaSQL;
 
 create table cliente(
+id int primary key,
 nome varchar(30),
 email varchar(30),
 tel int,
