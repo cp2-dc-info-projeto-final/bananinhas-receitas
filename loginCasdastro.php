@@ -1,6 +1,6 @@
 <?php
-session_start();
-?>
+        session_start();
+    ?>
 
 <html lang="pt-br">
 
@@ -66,7 +66,7 @@ session_start();
         if(array_key_exists('erro', $_SESSION) == true){
           $erro = $_SESSION["erro"];
           echo "<br><b>$erro</b>";
-          session_unset();
+
           } 
             ?> 
           <h2><b>LOGIN<b></h2>
@@ -75,10 +75,14 @@ session_start();
           <input type="text" id="email" placeholder="Email">
           <input type="password" id="senha" placeholder="Senha">
          </div>         
-          <button id="goright" class="off">Criar</button>
-          <input type="submit" id="enviar" value="Logar"> 
-           </form>   
-                 
+          <input type="submit" id="logar" value="Logar"> 
+              <?php
+              session_unset();
+              ?>
+           </form>  
+           <form action="login.php" method="post" onsubmit="return false;"> 
+              <button id="goright" class="off">Criar</button>
+           </form>  
           </div>
         </div>    
       </div>

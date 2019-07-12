@@ -184,6 +184,7 @@
         outline: 0;
         margin: 15px 15px 15px 0;
         transition: all 0.5s ease;
+        display: inline;
     }
     
     button:hover {
@@ -220,6 +221,10 @@
         margin-top: 20px;
     }
     
+    input[type="submit" i] {
+        display: inline-block;
+    }
+
     .form-group label {
         background: transparent;
         border: 0;
