@@ -72,8 +72,8 @@
           <h2><b>LOGIN<b></h2>
           <form action="login.php" method="post"> 
         <div class="form-group">
-          <input type="text" id="email" placeholder="Email">
-          <input type="password" id="senha" placeholder="Senha">
+          <input name="email" type="text" id="email" placeholder="Email">
+          <input name="senha" type="password" id="senha" placeholder="Senha">
          </div>         
           <input type="submit" id="logar" value="Logar"> 
               <?php
