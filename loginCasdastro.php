@@ -32,12 +32,12 @@
                     <h2><b>REGISTRAR<b></h2>
           <form action="cadastro.php" method="post"> 
             <div class="form-group">
-              <input type="text" name="nome" id="nome" placeholder="Nome de usuário">
-              <input type="text" name="email" id="email" placeholder="Email">
-              <input type="text" name="telefone" id="telefone" placeholder="Telefone">
-              <input type="Date" name="dataNascimento" id="dataNascimento" placeholder="Data de nascimento">
-              <input type="password" name="senha" id="senha" placeholder="Senha">
-              <input type="password" name="senha2" id="senha2" placeholder="Confirmar senha">
+              <input type="text" name="nome" id="nome" placeholder="Nome de usuário" required="required">
+              <input type="email" name="email" id="email" placeholder="Email" required="required">
+              <input type="text" name="telefone" id="telefone" placeholder="Telefone" required="required">
+              <input type="Date" name="dataNascimento" id="dataNascimento" placeholder="Data de nascimento" required="required">
+              <input type="password" name="senha" id="senha" placeholder="Senha" required="required">
+              <input type="password" name="senha2" id="senha2" placeholder="Confirmar senha" required="required">
               </div>
               <div class="form-group">
                 <label>
