@@ -24,14 +24,14 @@
             } else {
                 $erro = "Senha incorreta";
                 $_SESSION["erro"] = $erro;
-                header("Location: main.html");
+                header("Location: loginCasdastro.php");
                 exit();
             }
         }
     } else {
         $erro = "Login inexistente";
         $_SESSION["erro"] = $erro;
-        header("Location: main.html");
+        header("Location: loginCasdastro.php");
         exit();
     }        
     mysqli_close($connection);
