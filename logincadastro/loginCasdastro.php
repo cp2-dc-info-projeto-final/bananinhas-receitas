@@ -30,7 +30,7 @@
         ?>
 
                     <h2><b>REGISTRAR<b></h2>
-          <form action="cadastro.php" method="post"> 
+          <form action="cadastroControle.php" method="post"> 
             <div class="form-group">
               <input type="text" name="nome" id="nome" placeholder="Nome de usuário" required="required">
               <input type="email" name="email" id="email" placeholder="Email" required="required">
@@ -70,7 +70,7 @@
           } 
             ?> 
           <h2><b>LOGIN<b></h2>
-          <form action="login.php" method="post"> 
+          <form action="loginControle.php" method="post"> 
         <div class="form-group">
           <input name="email" type="text" id="email" placeholder="Email">
           <input name="senha" type="password" id="senha" placeholder="Senha">

@@ -1,9 +1,9 @@
 <?php
+    function cadastro($nome,$email,$senha,$senha2)
     $nome = $_POST["nome"];
     $email = $_POST["email"];
     $senha = $_POST["senha"];
     $senha2 = $_POST["senha2"];
-    session_start();
     if ($senha != $senha2) {    
         $erro = "As senhas não coincidem";        
         $_SESSION["erro"] = $erro;
@@ -38,5 +38,4 @@
     } else{
         die("Deu ruim no cadastro $sql. " . mysqli_error($connection));
     }
-    mysqli_close($connection);
 ?>
