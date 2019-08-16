@@ -1,23 +1,30 @@
 <?php
-   require "cadastro.php"
-    session_start();
 
-    $connection = mysqli_connect("localhost", "root", "", "bananasql");
+   require "cadastro.php";
+   session_start();
 
-    // Check connection
-    if($connection === false){
-        die("Deu ruim mano!" . mysqli_connect_error());
-    }
-    $sql = "SELECT id FROM cliente WHERE email='$email'";
-    $result = mysqli_query($connection, $sql);
-    $erro = "";
-    
-    if(mysqli_query($connection, $sql)){
-        session_unset();
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $senha = $_POST["senha"];
+    $senha2 = $_POST["senha2"];
+
+    if ($senha != $senha2) {    
+        $erro = "As senhas não coincidem";        
+        $_SESSION["erro"] = $erro;
         header("Location: LoginCasdastro.php");
         exit();
-    } else{
-        die("Deu ruim no cadastro $sql. " . mysqli_error($connection));
+    }        
+    $hash = password_hash($senha, PASSWORD_DEFAULT);
+    
+    if (cadastro($nome,$email,$hash)) {
+        session_unset();
+        header("Location: main.html");
+        exit();
+    } else {
+        $erro = "E-mail indisponível";
+        $_SESSION["erro"] = $erro;
+        header("Location: LoginCasdastro.php");
+        exit();
     }
-    mysqli_close($connection);
+
 ?>
