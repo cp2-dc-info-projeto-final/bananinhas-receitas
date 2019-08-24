@@ -7,6 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Login e Cadastro</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
@@ -39,24 +41,21 @@
               <input type="password" name="senha" id="senha" placeholder="Senha" required="required">
               <input type="password" name="senha2" id="senha2" placeholder="Confirmar senha" required="required">
               </div>
-              <div class="form-group">
-                <label>
-                    <input type="radio" name="sexo" value="masculino"> Masculino
-                </label>
-                <label>
-                    <input type="radio" name="sexo" value="feminino"> Feminino
-                </label>
-                <label>
-                    <input type="radio" name="sexo" value="outro"> Outro
-                </label>
+              <div class="radion">
+                <input type="radio" name="sexo"  id="masculino" value="masculino" required>
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" name="sexo" id="feminino" value="feminino" required>
+                <label for="feminino"">Feminino</label>
+
+                <input type="radio" name="sexo" id="outro" value="outro" required>
+                <label for="outro">Outro</label>
               </div>
-              <div class="form-group"></div>
-              <div class="form-group"></div>
-              <button id="goleft" class="off">Já tenho</button>
-              <input type="submit" id="enviar" value="Enviar">
+              
+              <button type="submit" id="enviar">Enviar</button>
               <!--<button>Enviar</button>-->
            </form>
-          
+          <button id="goleft" class="off">Já tenho</button>
           </div>
         </div>
       
@@ -75,13 +74,13 @@
           <input name="email" type="text" id="email" placeholder="Email">
           <input name="senha" type="password" id="senha" placeholder="Senha">
          </div>         
-          <input type="submit" id="logar" value="Logar"> 
+          <button type="submit" id="logar">Logar</button> 
               <?php
               session_unset();
               ?>
            </form>  
            <form action="login.php" method="post" onsubmit="return false;"> 
-              <button id="goright" class="off">Criar</button>
+           <button id="goright" class="off">Criar</button>
            </form>  
           </div>
         </div>    

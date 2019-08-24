@@ -3,7 +3,7 @@
     #logo {
         height: 200px;
         width: 100%;
-        background-image: url("bananalogohorizontal.png");
+        background-image: url("Imagens/bananalogohorizontal.png");
         top: 0px;
     }
     
@@ -80,7 +80,7 @@
         overflow: hidden;
         width: 1920px !important;
         box-sizing: border-box;
-        font-family: tahoma;
+        font-family: Tahoma;
     }
     
     .backright {
@@ -88,7 +88,7 @@
         right: 0;
         width: 50%;
         height: 100%;
-        background-image: url("bananalogo.png");
+        background-image: url("Imagens/bananalogo.png");
         background-size: cover;
         background-position: 50% 50%;
     }
@@ -98,7 +98,7 @@
         left: 0;
         width: 50%;
         height: 100%;
-        background-image: url("bananalogo.png");
+        background-image: url("Imagens/bananalogo.png");
         background-size: cover;
         background-position: 20% 50%;
     }
@@ -145,23 +145,14 @@
     }
     
     .content {
-        width: 250px;
+        width: 200px;
         margin: 0 auto;
         top: 30%;
         position: absolute;
         left: 50%;
-        mergin-left: -125px;
-    }
-    
-    .content {
-        width: 250px;
-        margin: 0 auto;
-        top: 30%;
-        position: 50%;
-        left: 50%;
         margin-left: -125px;
     }
-    
+        
     .content h2 {
         color: deepskyblue;
         font-weight: 300;
@@ -210,7 +201,7 @@
         box-shadow: none;
     }
     
-    input {
+    .form-group input {
         background: transparent;
         border: 0;
         outline: 0;
@@ -219,24 +210,64 @@
         color: #959595;
         padding: 8px 0;
         margin-top: 20px;
-    }
-    
-    input[type="submit" i] {
-        display: inline-block;
     }
 
-    .form-group label {
-        background: transparent;
+    .radion input[type="radio"]
+    {
+        display:none;
+    }
+
+    .radion {
+        padding: 15px 0;
+        border-bottom: 1px solid #45494c;
+    }
+
+    .radion label {
+        color: #959595;
+        background: rgba(0,0,0,.1);
+        padding: 5px 15px 5px 51px;
+        display: inline-block;
+        position: relative;
         border: 0;
         outline: 0;
-        border-bottom: 1px solid #45494c;
-        font-size: 14px;
-        color: #959595;
-        padding: 8px 0;
-        margin-top: 20px;
+        font-size: 14px;     
+        font-family: "Tahoma";
+        border-radius: 3px;
+        cursor: pointer;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
     }
     
+    .radion label:hover {
+    background: rgba(0,116,217,0.1);
+    }
+
+    .radion label:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: none;
+    border: 3px solid #03a9f4;
+    border-radius: 50%;
+    position: absolute;
+    left:17px;
+    top:4px;
+    }
+
+    .radion input[type="radio"]:checked + label {
+        padding: 5px 15px;
+        background: #03a9f4;
+        border-radius: 2px;
+        color:#fff;
+    }
+
+    .radion input[type="radio"]:checked + label:before {
+        display: none;
+    }
     .recovery {
         background: none;
         color: #03a9f4;
         box-shadow: none;
+    }
