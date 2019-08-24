@@ -46,7 +46,7 @@
                 <label for="masculino">Masculino</label>
 
                 <input type="radio" name="sexo" id="feminino" value="feminino" required>
-                <label for="feminino"">Feminino</label>
+                <label for="feminino">Feminino</label>
 
                 <input type="radio" name="sexo" id="outro" value="outro" required>
                 <label for="outro">Outro</label>
