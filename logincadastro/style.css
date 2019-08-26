@@ -1,273 +1,273 @@
         /* Menu principal*/
-    
-    #logo {
-        height: 200px;
-        width: 100%;
-        background-image: url("Imagens/bananalogohorizontal.png");
-        top: 0px;
-    }
-    
-    #menu {
-        height: 50px;
-        width: 100%;
-        background-color: #C0C0C0;
-        top: 200px;
-        position: absolute;
-    }
-    
-    .menu li {
-        position: relative;
-        width: 1900px;
-        color: #F5FFFA;
-        display: block;
-    }
-    
-    .menu a {
-        text-decoration: none;
-    }
-    
-    .menu ul li {
-        width: 480px;
-        float: left;
-    }
-    
-    .menu a {
-        padding-top: 10px;
-        padding-bottom: 13px;
-        display: block;
-        font-size: 22px;
-        text-decoration: none;
-        text-align: center;
-        color: white;
-        background-color: #C0C0C0;
-        border-top: 1px solid orange;
-    }
-    
-    .menu ul ul {
-        position: absolute;
-        visibility: hidden;
-    }
-    
-    .menu ul li:hover ul {
-        visibility: visible;
-    }
-    
-    .menu ul li:hover a {
-        color: #696969;
-        ;
-    }
-    
-    .menu ul ul li {
-        float: none;
-    }
-    
-    #footer {
-        height: 150px;
-        background-color: #D2691E;
-        width: 1920px;
-        bottom: 0px;
-        position: absolute;
-    }
-    /* Fim do menu principal*/
-    
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        height: 100%;
-        overflow: hidden;
-        width: 1920px !important;
-        box-sizing: border-box;
-        font-family: Tahoma;
-    }
-    
-    .backright {
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 100%;
-        background-image: url("Imagens/bananalogo.png");
-        background-size: cover;
-        background-position: 50% 50%;
-    }
-    
-    .backleft {
-        position: absolute;
-        left: 0;
-        width: 50%;
-        height: 100%;
-        background-image: url("Imagens/bananalogo.png");
-        background-size: cover;
-        background-position: 20% 50%;
-    }
-    
-    #back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -999;
-    }
-    
-    #slidebox {
-        width: 50%;
-        max-height: 100%;
-        height: 100%;
-        overflow: hidden;
-        margin-left: 50%;
-        position: absolute;
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    }
-    
-    .toplayer {
-        width: 200%;
-        height: 100%;
-        position: relative;
-        left: 0;
-        left: -100%;
-    }
-    
-    .left {
-        width: 50%;
-        height: 100%;
-        background: #2c3034;
-        left: 0;
-        position: absolute;
-    }
-    
-    .right {
-        width: 50%;
-        height: 100%;
-        background: #f9f9f9;
-        right: 0;
-        position: absolute;
-    }
-    
-    .content {
-        width: 200px;
-        margin: 0 auto;
-        top: 30%;
-        position: absolute;
-        left: 50%;
-        margin-left: -125px;
-    }
         
-    .content h2 {
-        color: deepskyblue;
-        font-weight: 300;
-        font-size: 35px;
-    }
-    
-    button {
-        background: #03a9f4;
-        padding: 10px 16px;
-        width: auto;
-        font-weight: auto;
-        text-transform: uppercase;
-        font-size: 14px;
-        color: white;
-        line-height: 16px;
-        letter-spacing: 0.5px;
-        border-radius: 2px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
-        border: 0;
-        outline: 0;
-        margin: 15px 15px 15px 0;
-        transition: all 0.5s ease;
-        display: inline;
-    }
-    
-    button:hover {
-        background: #0288d1;
-        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
-    }
-    
-    .off {
-        background: none;
-        color: #03a9f4;
-        box-shadow: none;
-    }
-    
-    .right .off:hover {
-        background: #eee;
-        color: #03a9f4;
-        box-shadow: none;
-    }
-    
-    .left .off:hover {
-        background: #363a3d;
-        color: #03a9f4;
-        box-shadow: none;
-    }
-    
-    .form-group input {
-        background: transparent;
-        border: 0;
-        outline: 0;
-        border-bottom: 1px solid #45494c;
-        font-size: 14px;
-        color: #959595;
-        padding: 8px 0;
-        margin-top: 20px;
-    }
-
-    .radion input[type="radio"]
-    {
-        display:none;
-    }
-
-    .radion {
-        padding: 15px 0;
-        border-bottom: 1px solid #45494c;
-    }
-
-    .radion label {
-        color: #959595;
-        background: rgba(0,0,0,.1);
-        padding: 5px 15px 5px 51px;
-        display: inline-block;
-        position: relative;
-        border: 0;
-        outline: 0;
-        font-size: 14px;     
-        font-family: "Tahoma";
-        border-radius: 3px;
-        cursor: pointer;
-        -webkit-transition: all .3s ease;
-        -o-transition: all .3s ease;
-        transition: all .3s ease;
-    }
-    
-    .radion label:hover {
-    background: rgba(0,116,217,0.1);
-    }
-
-    .radion label:before {
-    content: "";
-    width: 17px;
-    height: 17px;
-    display: inline-block;
-    background: none;
-    border: 3px solid #03a9f4;
-    border-radius: 50%;
-    position: absolute;
-    left:17px;
-    top:4px;
-    }
-
-    .radion input[type="radio"]:checked + label {
-        padding: 5px 15px;
-        background: #03a9f4;
-        border-radius: 2px;
-        color:#fff;
-    }
-
-    .radion input[type="radio"]:checked + label:before {
-        display: none;
-    }
-    .recovery {
-        background: none;
-        color: #03a9f4;
-        box-shadow: none;
-    }
+        #logo {
+            height: 200px;
+            width: 100%;
+            background-image: url("Imagens/bananalogohorizontal.png");
+            top: 0px;
+        }
+        
+        #menu {
+            height: 50px;
+            width: 100%;
+            background-color: #C0C0C0;
+            top: 200px;
+            position: absolute;
+        }
+        
+        .menu li {
+            position: relative;
+            width: 1900px;
+            color: #F5FFFA;
+            display: block;
+        }
+        
+        .menu a {
+            text-decoration: none;
+        }
+        
+        .menu ul li {
+            width: 480px;
+            float: left;
+        }
+        
+        .menu a {
+            padding-top: 10px;
+            padding-bottom: 13px;
+            display: block;
+            font-size: 22px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            background-color: #C0C0C0;
+            border-top: 1px solid orange;
+        }
+        
+        .menu ul ul {
+            position: absolute;
+            visibility: hidden;
+        }
+        
+        .menu ul li:hover ul {
+            visibility: visible;
+        }
+        
+        .menu ul li:hover a {
+            color: #696969;
+            ;
+        }
+        
+        .menu ul ul li {
+            float: none;
+        }
+        
+        #footer {
+            height: 150px;
+            background-color: #D2691E;
+            width: 1920px;
+            bottom: 0px;
+            position: absolute;
+        }
+        /* Fim do menu principal*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            height: 100%;
+            overflow: hidden;
+            width: 1920px !important;
+            box-sizing: border-box;
+            font-family: Tahoma;
+        }
+        
+        .backright {
+            position: absolute;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-image: url("Imagens/bananalogo.png");
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        
+        .backleft {
+            position: absolute;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-image: url("Imagens/bananalogo.png");
+            background-size: cover;
+            background-position: 20% 50%;
+        }
+        
+        #back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -999;
+        }
+        
+        #slidebox {
+            width: 50%;
+            max-height: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin-left: 50%;
+            position: absolute;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        
+        .toplayer {
+            width: 200%;
+            height: 100%;
+            position: relative;
+            left: 0;
+            left: -100%;
+        }
+        
+        .left {
+            width: 50%;
+            height: 100%;
+            background: #2c3034;
+            left: 0;
+            position: absolute;
+        }
+        
+        .right {
+            width: 50%;
+            height: 100%;
+            background: #f9f9f9;
+            right: 0;
+            position: absolute;
+        }
+        
+        .content {
+            width: 200px;
+            margin: 0 auto;
+            top: 30%;
+            position: absolute;
+            left: 50%;
+            margin-left: -125px;
+        }
+        
+        .content h2 {
+            color: deepskyblue;
+            font-weight: 300;
+            font-size: 35px;
+        }
+        
+        button {
+            background: #03a9f4;
+            padding: 10px 16px;
+            width: 100%;
+            font-weight: auto;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: white;
+            line-height: 16px;
+            letter-spacing: 0.5px;
+            border-radius: 2px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+            border: 0;
+            outline: 0;
+            margin: 15px 15px 15px 0;
+            transition: all 0.5s ease;
+            display: inline;
+        }
+        
+        button:hover {
+            background: #0288d1;
+            box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .off {
+            background: none;
+            color: #03a9f4;
+            box-shadow: none;
+        }
+        
+        .right .off:hover {
+            background: #eee;
+            color: #03a9f4;
+            box-shadow: none;
+        }
+        
+        .left .off:hover {
+            background: #363a3d;
+            color: #03a9f4;
+            box-shadow: none;
+        }
+        
+        .form-group input {
+            background: transparent;
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid #45494c;
+            font-size: 14px;
+            color: #959595;
+            padding: 8px 0;
+            margin-top: 20px;
+        }
+        
+        .radion input[type="radio"] {
+            display: none;
+        }
+        
+        .radion {
+            padding: 15px 0;
+            border-bottom: 1px solid #45494c;
+        }
+        
+        .radion label {
+            color: #959595;
+            background: transparent;
+            padding: 5px 15px 5px 51px;
+            display: inline-block;
+            position: relative;
+            border: 0;
+            outline: 0;
+            font-size: 14px;
+            font-family: "Tahoma";
+            border-radius: 3px;
+            cursor: pointer;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+        
+        .radion label:hover {
+            background: rgba(0, 116, 217, 0.1);
+        }
+        
+        .radion label:before {
+            content: "";
+            width: 17px;
+            height: 17px;
+            display: inline-block;
+            background: none;
+            border: 3px solid #03a9f4;
+            border-radius: 50%;
+            position: absolute;
+            left: 17px;
+            top: 4px;
+        }
+        
+        .radion input[type="radio"]:checked+label {
+            padding: 5px 15px;
+            background: #03a9f4;
+            border-radius: 2px;
+            color: #fff;
+        }
+        
+        .radion input[type="radio"]:checked+label:before {
+            display: none;
+        }
+        
+        .recovery {
+            background: none;
+            color: #03a9f4;
+            box-shadow: none;
+        }
