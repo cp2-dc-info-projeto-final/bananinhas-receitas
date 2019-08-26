@@ -6,7 +6,7 @@
     $nome = $_POST["nome"];
     $email = $_POST["email"];
     $tel = $_POST["tel"];
-    $dataNasc = $_POST["dataNasc"];
+    $datanasc = $_POST["dataNasc"];
     $senha = $_POST["senha"];
     $senha2 = $_POST["senha2"];
     $sexo = $_POST["sexo"];
@@ -19,7 +19,7 @@
     }        
     $hash = password_hash($senha, PASSWORD_DEFAULT);
     
-    if (cadastro($nome,$email,$tel,$dataNasc,$hash,$sexo)) {
+    if (cadastro($nome,$email,$tel,$datanasc,$hash,$sexo)) {
         session_unset();
         header("Location: main.html");
         exit();

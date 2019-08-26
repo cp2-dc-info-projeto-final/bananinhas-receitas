@@ -7,7 +7,7 @@ create table cliente(
     tel int,
     senha varchar(255),
     sexo varchar(30),
-    DataNasc date
+    datanasc date
 );
 
 create table ingredientes(

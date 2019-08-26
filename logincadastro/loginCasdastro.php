@@ -37,7 +37,7 @@
               <input type="text" name="nome" id="nome" placeholder="Nome de usuário" required="required">
               <input type="email" name="email" id="email" placeholder="Email" required="required">
               <input type="text" name="tel" id="tel" placeholder="Telefone" required="required">
-              <input type="Date" name="dataNasc" id="dataNasc" placeholder="Data de nascimento" required="required">
+              <input type="Date" name="dataNasc" id="datanasc" placeholder="Data de nascimento" required="required">
               <input type="password" name="senha" id="senha" placeholder="Senha" required="required">
               <input type="password" name="senha2" id="senha2" placeholder="Confirmar senha" required="required">
               </div>
