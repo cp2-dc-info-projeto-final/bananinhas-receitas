@@ -28,12 +28,12 @@ create table receitas(
     ultimaatualizacao date,
     nota int,
     idcliente int,
-    foreign key idcliente references id(cliente)
+    CONSTRAINT fk_receiclientes FOREIGN KEY (idcliente) REFERENCES id(cliente)
 );
 
 create table favoritos(
-    idcliente int primary key,
-    idreceitas int primary key,
-    foreign key idcliente references id(cliente),
-    foreign key idreceitas references idreceitas(receitas)
+    idcliente int,
+    idreceitas int,
+    CONSTRAINT fk_favoritoscliente FOREIGN KEY (idcliente) REFERENCES id(cliente),
+    CONSTRAINT fk_receitasfavoritas FOREIGN KEY (idreceitas) REFERENCES id(receitas)
 );
