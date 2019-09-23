@@ -8,7 +8,7 @@
 
 ## Navegação
 
-### [Proposta](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Proposta.md)
+### [Proposta](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Proposta.md)
 
 ### [Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Entrevista.md)
 
