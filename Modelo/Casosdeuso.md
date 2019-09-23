@@ -127,5 +127,5 @@ Fluxo Principal:
 
 
 
-1)O UC(usuário cadastrado) poderá adicionar ingredientes de acordo com os termos de uso do site, não contendo nenhum tipo de quebra ao temos de uso em quaisquer ingredientes. Caso o usuário quebre alguma das diretrizes o site mostrará uma mensagem de erro.
+1)O UC(usuário cadastrado) poderá adicionar ingredientes de acordo com os termos de uso do site, não contendo nenhum tipo de quebra ao temos de uso em quaisquer ingredientes. 
 
