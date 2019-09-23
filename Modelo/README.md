@@ -10,8 +10,8 @@
 
 ### [Proposta](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Proposta.md)
 
-### [Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Entrevista.md)
+### [Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Entrevista.md)
 
-### [Audio da Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/entrevista.mp3)
+### [Audio da Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/tree/master/Modelo/AudioEntrevista)
 
-### [Requisitos](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Requisitos.md)
+### [Requisitos](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Requisitos.md)
