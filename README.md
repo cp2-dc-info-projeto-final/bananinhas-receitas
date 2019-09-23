@@ -14,4 +14,4 @@
 
 ### [Audio da Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/tree/master/Modelo/AudioEntrevista)
 
-### [Requisitos] (https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Requisitos.md)
+### [Requisitos](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Requisitos.md)
