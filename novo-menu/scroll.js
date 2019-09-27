@@ -14,3 +14,11 @@ $(window).scroll(function () {
     $('.pequeno').waypoint(function(direction) {
     	$('.conteudocinza').addClass('animated fadeIn');
     })
+
+    $('.nav-alto').waypoint(function(direction) {
+    	$('.conteudocinza1').addClass('animated fadeIn');
+    })
+
+    $('.conteudocinza1').waypoint(function(direction) {
+    	$('.conteudocinza2').addClass('animated fadeIn');
+    })
