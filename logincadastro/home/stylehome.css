@@ -241,6 +241,117 @@ margin-right:10%;
 	float:right;
 }
 
+.container2{    
+	height:150px;
+	width: 1070px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pequenos{
+	float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita.jpg");
+	background-size:cover;
+    background-position:center;
+}
+.pequenos1{
+	background-image: url("receita1.jpg");
+	float:left;
+	width:200px;
+	height:150px;
+	background-size:cover;
+    background-position:center;
+}
+.pequenos2{
+	float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita2.jpg");
+	background-size:cover;
+    background-position:center;
+}
+.pequenos3{
+	float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita3.jpg");	
+	background-size:cover;
+    background-position:center;
+}
+.pequenos4{
+float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita4.jpg");	
+	background-size:cover;
+    background-position:center;
+}
+.pequenos5{
+	float:left;
+	width:200px;
+	height:150px;
+	background-color:#9e9b93;
+}
+.pequenos6{
+	float:left;
+	width:200px;
+	height:150px;
+	background-color:orange;
+	
+}
+.pequenos7{
+    float:left;
+	width:200px;
+	height:150px;
+	background-color:blue;
+	
+}
+.pequenos8{
+    float:left;
+	width:200px;
+	height:150px;
+	background-color:gray;
+	
+}
+.pequenos9{
+    float:left;
+	width:200px;
+	height:150px;
+	background-color:navy;
+	
+}
+
+.titulopequeno{
+	margin: 0 auto;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+}
+
+.textopequeno{
+	width:100%;
+	height:75px;
+	margin-top:10px;
+	text-align:left;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.leiamais{
+	height:20px;
+	width:100%;
+	margin-top:0;
+	text-align:center;
+	color:white;
+}
+
 .rodape{
 	background-color:black;
 	width:100%;
