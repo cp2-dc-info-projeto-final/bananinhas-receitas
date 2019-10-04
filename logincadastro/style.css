@@ -271,3 +271,77 @@
             color: #03a9f4;
             box-shadow: none;
         }
+		
+	#menubar {
+		height: 6%;
+		width: 100%;
+		background-color: #DCDCDC;
+		position: absolute;
+		top: 50%;
+	}
+	/*#img_perfil {
+		margin-top: 040px;
+		margin-right: 055px;
+		width: 150px;
+		height: 150px;
+		border-radius: 30px 30px 30px 30px;
+		position: absolute;
+		background-image: ('D:\banana\bananinhas-receitas-master\Imagens\bananalogo.png');
+}*/
+	
+	#topdiv{
+		height: 50%;
+		width: 100%;
+		background-color: orange;
+	}
+	
+	/*#topimgright{
+		float: right;
+		height: 50%;
+		width: 650px;
+		/*background-image: ('D:\banana\bananinhas-receitas-master\Imagens\bananalogo.png');*/
+	}
+	
+	.menu {
+    width: 100%;
+    height: 6%;
+    background-color: #DCDCDC;
+    font-family: 'Arial', 'Verdana', sans-serif;
+	z-index: 1000;
+}
+	.menu ul {
+	list-style: none;
+	position:relative;
+}
+.menu ul li {
+	width: 16%;
+    float: center;
+}
+
+.menu a {
+	display:block;
+	font-size: 22px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #DCDCDC;
+}
+.menu ul ul {
+		position: absolute;
+		visibility: hidden;
+}
+
+.menu ul li:hover ul {
+	visibility: visible;
+}
+.menu ul li:hover a{
+	background-color: black;
+	color: orange;
+}
+.menu ul ul li {
+	float:none;
+}
+
+		
+		
+		
