@@ -8,7 +8,7 @@ session_start();
     <meta charset= "utf-8">
     <title>Cadastro</title>
 </head>
-<link href="http://127.0.0.1/edsa-projeto%20alfa/ingrediente/ingrediente.css" rel="Stylesheet" type="ttext/css">
+<link href="http://127.0.0.1/edsa-edsa-bananinhas%20receitas/ingredientes/ingrediente.php" rel="Stylesheet" type="text/css">
 
 <body>
 <?php
