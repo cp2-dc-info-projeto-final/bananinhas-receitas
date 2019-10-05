@@ -22,7 +22,3 @@ $(window).scroll(function () {
     $('.conteudocinza1').waypoint(function(direction) {
     	$('.conteudocinza2').addClass('animated fadeIn');
     })
-
-     $('.conteudocinza2').waypoint(function(direction) {
-        $('.conteudocinza3').addClass('animated fadeIn');
-    })

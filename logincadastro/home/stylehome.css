@@ -71,7 +71,7 @@ body{
 	padding-top:60px;
 	margin-left:100px;
 	margin-right:100px;
-	background-color: #fffbfa38;
+	background-color: none;
 
 }
 
@@ -90,8 +90,11 @@ body{
 	margin: 0 auto;
 	width:250px;
 	height:100%;
-	background-color:black;
-	border-radius: 15px;
+    background-color:black;
+	border: 1px solid #338033;
+	overflow: hidden;
+	transition: .6s;
+
 
 }
 
@@ -116,7 +119,7 @@ a.tururu {
     border-radius: 5px 5px 0 0;
     bottom: 0;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     left: 50%;
     line-height: 120%;
@@ -128,11 +131,33 @@ a.tururu {
     text-decoration: none;
 }
 
+.frase{
+	height:48px;
+	width:110px;
+	float:right;
+	text-align:center;
+}
+
+#site{
+	font-size:25px;
+}
+
+.imagem{
+	width:10px;
+    height:10px;
+    padding-top:15px;
+    padding-left:20px;
+}
+
 #wrapper {
     position: absolute;
     top: 100%;
     width: 100%;
     z-index: 200;
+}
+
+.afastar{
+	height:50px;
 }
 
 .nav-alto{
@@ -227,6 +252,12 @@ margin-right:10%;
 	height:640px;	
 }
 
+.conteudocinza4{
+	padding: 60px 0;
+	width:100%;
+	height:840px;	
+}
+
 .af1{
 	width:45%;
 	height: 520px;
@@ -241,15 +272,33 @@ margin-right:10%;
 	float:right;
 }
 
+.afastar2{
+	height:150px;
+	background-color:black;
+	width:100%;
+}
+
 .tudo{
 	width:100%
 	height:150px;
 	background-color:black;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.receitaspequenas{
+	width:600px;
+	height:100%;
+	margin-left:35%;
+	padding-top:30px;
+	color:white;
+	font-size:30px;
+	text-align:center;
 }
 
 .container2{    
 	height:150px;
-	width: 1070px;
+	width: 100%;
 	padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -264,7 +313,7 @@ margin-right:10%;
 	background-size:cover;
     background-position:center;
 }
-.pequenos6{
+.pequenos2{
 	background-image: url("receita1.jpg");
 	float:left;
 	width:200px;
@@ -272,7 +321,7 @@ margin-right:10%;
 	background-size:cover;
     background-position:center;
 }
-.pequenos2{
+.pequenos4{
 	float:left;
 	width:200px;
 	height:150px;
@@ -280,7 +329,7 @@ margin-right:10%;
 	background-size:cover;
     background-position:center;
 }
-.pequenos3{
+.pequenos6{
 	float:left;
 	width:200px;
 	height:150px;
@@ -288,7 +337,7 @@ margin-right:10%;
 	background-size:cover;
     background-position:center;
 }
-.pequenos4{
+.pequenos9{
 float:left;
 	width:200px;
 	height:150px;
@@ -296,39 +345,110 @@ float:left;
 	background-size:cover;
     background-position:center;
 }
+
+.pequenos11{
+    float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita4.jpg");	
+	background-size:cover;
+    background-position:center;
+}
+
+.pequenos13{
+float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita4.jpg");	
+	background-size:cover;
+    background-position:center;
+}
+
+.pequenos15{
+float:left;
+	width:200px;
+	height:150px;
+	background-image: url("receita4.jpg");	
+	background-size:cover;
+    background-position:center;
+}
+
 .pequenos5{
 	float:left;
 	width:200px;
 	height:150px;
-	background-color:white;
+	background-color:black;
+	color:white;
+
 }
 .pequenos1{
 	float:left;
 	width:200px;
 	height:150px;
-	background-color:white;
+    background-color:black;
+    color:white;
+	
+}
+.pequenos3{
+    float:left;
+	width:200px;
+	height:150px;
+	background-color:black;
+	color:white;
+
+	
+}
+.pequenos5{
+    float:left;
+	width:200px;
+	height:150px;
+	background-color:black;
+	color:white;
+
 	
 }
 .pequenos7{
     float:left;
 	width:200px;
 	height:150px;
-	background-color:white;
-	
+	background-color:black;
+	color:white;
 }
+
 .pequenos8{
-    float:left;
+	float:left;
 	width:200px;
 	height:150px;
-	background-color:white;
-	
+	background-color:black;
+	color:white;
+
 }
-.pequenos9{
-    float:left;
+
+.pequenos10{
+	float:left;
 	width:200px;
 	height:150px;
-	background-color:white;
-	
+	background-color:black;
+	color:white;
+
+}
+
+.pequenos12{
+	float:left;
+	width:200px;
+	height:150px;
+	background-color:black;
+	color:white;
+
+}
+
+.pequenos14{
+	float:left;
+	width:200px;
+	height:150px;
+	background-color:black;
+	color:white;
+
 }
 
 .titulopequeno{
@@ -359,9 +479,75 @@ float:left;
 }
 
 .espaco{
-	height:50px;
+	height:100px;
 	width:100%;
+	background-color:black;
 
+}
+
+.Sobrenos{
+	width:100%;
+	height:40px;
+	color:black;
+	text-align:center;
+	font-size:36px;
+}
+
+.Equipe{
+	width:100%;
+	height:705px;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+.Cadaum{
+	width:200px;
+	height:300px;
+	background-color:white;
+	float:center;
+	display:inline-block;
+	margin-right:30px;
+	margin-left:30px;
+	margin-top:130px;
+}
+
+.imgequipe1{
+	width:100%;
+	height:170px;
+	background-size:cover;
+	background-image:url(uilson.jpg);
+	border-radius:100px;
+}
+
+.imgequipe2{
+	width:100%;
+	height:170px;
+	background-size:cover;
+	background-image:url(thaynan.jpg);
+	border-radius:100px;
+}
+
+.imgequipe3{
+	width:100%;
+	height:170px;
+	background-size:cover;
+	background-image:url(felipe.jpg);
+	border-radius:100px;
+}
+
+.imgequipe4{
+	width:100%;
+	height:170px;
+	background-size:cover;
+	background-image:url(uilson.jpg);
+	border-radius:100px;
+}
+
+.redessociais1{
+	width:100%;
+	height:130px;
+	background-color:yellow;
+	list-style:none;
 }
 
 .rodape{
@@ -393,11 +579,11 @@ float:left;
 /* animations */
 
 .botao1:hover{
-	background-color:blue;
+	background-color:#063c94;
 }
 
 a.tururu:hover{
-	background-color:blue;
+	background-color:#063c94;
 }
 
 .menu ul li a:hover{
