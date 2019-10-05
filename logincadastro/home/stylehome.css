@@ -241,6 +241,12 @@ margin-right:10%;
 	float:right;
 }
 
+.tudo{
+	width:100%
+	height:150px;
+	background-color:black;
+}
+
 .container2{    
 	height:150px;
 	width: 1070px;
@@ -258,7 +264,7 @@ margin-right:10%;
 	background-size:cover;
     background-position:center;
 }
-.pequenos1{
+.pequenos6{
 	background-image: url("receita1.jpg");
 	float:left;
 	width:200px;
@@ -294,34 +300,34 @@ float:left;
 	float:left;
 	width:200px;
 	height:150px;
-	background-color:#9e9b93;
+	background-color:white;
 }
-.pequenos6{
+.pequenos1{
 	float:left;
 	width:200px;
 	height:150px;
-	background-color:orange;
+	background-color:white;
 	
 }
 .pequenos7{
     float:left;
 	width:200px;
 	height:150px;
-	background-color:blue;
+	background-color:white;
 	
 }
 .pequenos8{
     float:left;
 	width:200px;
 	height:150px;
-	background-color:gray;
+	background-color:white;
 	
 }
 .pequenos9{
     float:left;
 	width:200px;
 	height:150px;
-	background-color:navy;
+	background-color:white;
 	
 }
 
@@ -349,7 +355,13 @@ float:left;
 	width:100%;
 	margin-top:0;
 	text-align:center;
-	color:white;
+	
+}
+
+.espaco{
+	height:50px;
+	width:100%;
+
 }
 
 .rodape{
@@ -435,7 +447,8 @@ a.tururu:hover{
 .ki{
 	color:black;
 	margin:0 auto;
-	font-size:30px;
+	font-size:40px;
+	text-align:center;
 }
 
 .af22{
@@ -445,6 +458,6 @@ a.tururu:hover{
 
 .kii{
 	font-size:26px;
-	text-align:center;
+	text-align:left;
 }
 
