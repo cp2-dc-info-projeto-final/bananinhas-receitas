@@ -495,20 +495,26 @@ float:left;
 
 .Equipe{
 	width:100%;
-	height:705px;
-	margin-left:20%;
-	margin-right:20%;
+	height:650px;	
+}
+
+.conteudocadaum{
+	width: 1100px;
+    height: 300px;
+    margin-left: 21%;
+    margin-right: 25%;
+    margin-top: 4%;
 }
 
 .Cadaum{
-	width:200px;
-	height:300px;
-	background-color:white;
-	float:center;
-	display:inline-block;
-	margin-right:30px;
-	margin-left:30px;
-	margin-top:130px;
+	width: 200px;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 70px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #00f;
 }
 
 .imgequipe1{
@@ -516,7 +522,7 @@ float:left;
 	height:170px;
 	background-size:cover;
 	background-image:url(uilson.jpg);
-	border-radius:100px;
+
 }
 
 .imgequipe2{
@@ -524,7 +530,6 @@ float:left;
 	height:170px;
 	background-size:cover;
 	background-image:url(thaynan.jpg);
-	border-radius:100px;
 }
 
 .imgequipe3{
@@ -532,7 +537,7 @@ float:left;
 	height:170px;
 	background-size:cover;
 	background-image:url(felipe.jpg);
-	border-radius:100px;
+	
 }
 
 .imgequipe4{
@@ -540,14 +545,73 @@ float:left;
 	height:170px;
 	background-size:cover;
 	background-image:url(uilson.jpg);
-	border-radius:100px;
+	
 }
 
 .redessociais1{
 	width:100%;
 	height:130px;
-	background-color:yellow;
+	background-color:none;
 	list-style:none;
+}
+
+.listaredes{
+	width:100%;
+	height:40px;
+}
+
+.iconredes{
+	width:38px;
+	height:40px;
+	background-image: url(github.jpg);
+	background-size:cover;
+	background-position:center;
+	float:left;
+}
+
+.iconredes1{
+	width:38px;
+	height:40px;
+	background-image: url(facebook.jpg);
+	background-size:cover;
+	background-position:center;
+	float:left;
+}
+
+.iconredes2{
+	width:38px;
+	height:40px;
+	background-image: url(twitter.png);
+	background-size:cover;
+	background-position:center;
+	float:left;
+}
+
+.idredes{
+ width:160px;
+ height:40px;
+ background-color:none;
+ float:left;
+ text-align:left;
+ padding-left:3px;
+}
+
+.idredes1{
+ width:160px;
+ height:40px;
+ background-color:none;
+ float:left;
+ text-align:left;
+ padding-left:3px;
+}
+
+.idredes2{
+ width:160px;
+ height:40px;
+ background-color:none;
+ float:left;
+ text-align:left;
+ padding-left:3px;
 }
 
 .rodape{
@@ -587,7 +651,7 @@ a.tururu:hover{
 }
 
 .menu ul li a:hover{
-   color:blue;
+   color:#e3691e;
 }
 
 .fixed{
@@ -622,6 +686,22 @@ a.tururu:hover{
     opacity:1;
 }
 
+.conteudocinza4{
+	opacity:0;
+}
+
+.conteudocinza4.animated{
+    opacity:1;
+}
+
+.efect{
+	opacity:0;
+}
+
+.efect.animated{
+    opacity:1;
+}
+
 .af11{
 	width: 100%;
     height: 120px;
@@ -638,6 +718,7 @@ a.tururu:hover{
 }
 
 .af22{
+	padding-top:40px;
 	width:100%;
 	height:220px;
 }
