@@ -1,14 +1,14 @@
 <?php
 
     function cadastro($nome,$email,$tel,$datanasc,$hash,$sexo) {
-        $connection = mysqli_connect("localhost", "root", "", "bananasql");
+        $conn = mysqli_connect("localhost", "root", "", "bananasql");
         // Check connection
-        if($connection === false){
+        if($conn === false){
             die("Deu ruim mano!" . mysqli_connect_error());
         }
 
         $sql = "SELECT id FROM cliente WHERE email='$email'";
-        $result = mysqli_query($connection, $sql);
+        $result = mysqli_query($conn, $sql);
         $erro = "";
         
         if (mysqli_num_rows($result) > 0) {
@@ -18,10 +18,10 @@
         $sql = "INSERT INTO cliente (nome, email, tel, datanasc, senha, sexo) VALUES
             ('$nome', '$email', '$tel','$datanasc', '$hash', '$sexo')";
         
-        if(!mysqli_query($connection, $sql)){
-            die("Deu ruim no cadastro $sql. " . mysqli_error($connection));
+        if(!mysqli_query($conn, $sql)){
+            die("Deu ruim no cadastro $sql. " . mysqli_error($conn));
         }
-        mysqli_close($connection);
+        mysqli_close($conn);
         return true;
     }
 ?>

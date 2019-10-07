@@ -1,15 +1,15 @@
 <?php
 require "conexao.php";
 session_start();
+    
 
+$Nome = $_POST["nome"];
 
-$Nome = $_POST["Nome"];
+$result_ingredientes = "INSERT INTO ingredientes (nome) VALUES ('$Nome')";
+$resultado_ingredientes = mysqli_query($conn,$result_ingredientes);
 
-$result_ingredientes = "INSERT INTO ingredientes (nome) VALUES ('$nome')";
-$resultado_ingredientes = mysqli_query($connection,$result_ingredientes);
-
-if(mysqli_insert_id($connection)){
-    $_SESSION['msg'] = "ingrediente cadastrado com sucesso";
+if(mysqli_insert_id($conn)){
+    $_SESSION['msg'] = "<p style= 'color:black;'>ingrediente cadastrado com sucesso";
     header("location:ingrediente.php");
 } else{
     $_SESSION['msg']="<p style= 'color:black;'>ingrediente não foi cadastrado com sucesso</p>";

@@ -8,7 +8,7 @@ session_start();
     <meta charset= "utf-8">
     <title>Cadastro</title>
 </head>
-<link href="http://127.0.0.1/edsa-edsa-bananinhas%20receitas/ingredientes/ingrediente.php" rel="Stylesheet" type="text/css">
+<link href="ingrediente.css" rel="Stylesheet" type="text/css">
 
 <body>
 <?php
@@ -21,7 +21,7 @@ session_start();
     <form id="contact" action="processa.php" method="post">
         <h3>Cadastro de Ingrediente</h3>
 
-        <input type="text" name="Nome" placeholder="Nome do Ingrediente" required="required">
+        <input type="text" name="nome" id="nome" placeholder="Nome do ingrediente" required="required">
 
         <button type="submit" id="cadastrar">Cadastrar</button>
     </form>
