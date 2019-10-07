@@ -89,7 +89,7 @@ margin-right:10%;
 
 .conteudo{
 	width:100%;
-	height:350px;
+	height:250px;
 	background-color:white;
 }
 
@@ -97,6 +97,14 @@ margin-right:10%;
 	width:100%;
 	height:50px;
 	background-color:gray;
+}
+
+.textoh1{
+	width:30px;
+	height:25px;
+	color:white;
+	float:left;
+	padding-left:20px;
 }
 
 .owncarousel{
@@ -111,7 +119,14 @@ margin-right:10%;
 }
 
 .item{
-	background-color:green;
 	height:200px;
-	width:320px;
+	width:350px;	
+}
+
+.imagem{
+	width:100%;
+	height:200px;
+	background-image:url(receita4.jpg);
+	background-size:cover;
+    background-position:center;
 }
