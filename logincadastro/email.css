@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#leftside{
+	width: 50%;
+	height: 100%;
+	left: 0%;
+	position: absolute;
+	background-image: ("\imagens\bananalogo.png");
+}
+#rightside{
+	width: 50%;
+	height: 100%;
+	right: 0%;
+	position: absolute;
+	background-color: yellow;
+}
