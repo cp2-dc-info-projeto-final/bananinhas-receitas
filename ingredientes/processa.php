@@ -2,6 +2,13 @@
 require "conexao.php";
 session_start();
     
+$result_ingredientes=mysql_query("Select *FROM ingredientes WHERE nome='".$_POST['nome']."'");
+if(mysql_num_rows($result_ingredientes)>=1){Echo "Ingrediente já cadastrado
+<script type=\"text/javascript\">
+alert(\"cadastrado com sucesso! \");
+<\script>
+ ";
+}
 
 $Nome = $_POST["nome"];
 

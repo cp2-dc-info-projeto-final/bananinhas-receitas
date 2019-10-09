@@ -1,13 +1,14 @@
 <html>
 <head>
-<link href='style.css' rel='stylesheet' type='text/css'>
+<link href='style.css' rel='stylesheet' type='text/css' />
+<script src="scroll2.js"></script>
 </head>
 
 <body>
 
 <header>
 <div id="topdiv" class="text"><h1>Olá @nome!</h1><h1>Bem vindo à área do usuário!</h1></div>
-<div id="img_perfil"><img id="img_perfil" src=""></div>
+
 
 </header>
 
