@@ -93,7 +93,7 @@ margin-right:10%;
 	background-color:white;
 }
 
-.tituloconteudo{
+.titulo{
 	width:100%;
 	height:50px;
 	background-color:gray;
@@ -107,20 +107,20 @@ margin-right:10%;
 	padding-left:20px;
 }
 
-.owncarousel{
+.box{
 	width:100%;
 	height:250px;
-    background-color:white;
+    background-color:blue;
+    display:flex;
 }
 
-.owl-item{
-	width:300px;
-	margin-right:0px;
-}
 
 .item{
 	height:200px;
-	width:350px;	
+	width:350px;
+	margin:5px;
+	margin-top:0;
+	background-color:orange;	
 }
 
 .imagem{
