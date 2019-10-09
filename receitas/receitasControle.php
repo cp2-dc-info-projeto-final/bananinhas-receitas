@@ -1,33 +1,18 @@
 <?php
-
-   require "cadastro.php";
-   session_start();
-
-    $nome = $_POST["nome"];
-    $email = $_POST["email"];
-    $tel = $_POST["tel"];
-    $datanasc = $_POST["dataNasc"];
-    $senha = $_POST["senha"];
-    $senha2 = $_POST["senha2"];
-    $sexo = $_POST["sexo"];
-
-    if ($senha != $senha2) {    
-        $erro = "As senhas não coincidem";        
-        $_SESSION["erro"] = $erro;
-        header("Location: LoginCasdastro.php");
-        exit();
-    }        
-    $hash = password_hash($senha, PASSWORD_DEFAULT);
+require "receitasform.php";
+session_start();
     
-    if (cadastro($nome,$email,$tel,$datanasc,$hash,$sexo)) {
-        session_unset();
-        header("Location: main.html");
-        exit();
-    } else {
-        $erro = "E-mail indisponível";
-        $_SESSION["erro"] = $erro;
-        header("Location: LoginCasdastro.php");
-        exit();
-    }
 
+$Nome = $_POST["nome"];
+
+$result_ingredientes = "INSERT INTO receitas (nome) VALUES ('$Nome')";
+$resultado_ingredientes = mysqli_query($conn,$result_ingredientes);
+
+if(mysqli_insert_id($conn)){
+    $_SESSION['msg'] = "<p style= 'color:black;'>Receita cadastrado com sucesso";
+    header("location:receitas.php");
+} else{
+    $_SESSION['msg']="<p style= 'color:black;'>Receita não foi cadastrado com sucesso</p>";
+    header("location:receitas.php");
+}
 ?>
