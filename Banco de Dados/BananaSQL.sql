@@ -23,12 +23,14 @@ create table categoria(
 create table receitas(
     idreceitas int primary key,
     nome varchar(30),
-    descrição varchar(200),
+    descricao varchar(200),
     mododepreparo varchar(1000),
     ultimaatualizacao date,
     nota int,
     idcliente int,
-    CONSTRAINT fk_receiclientes FOREIGN KEY (idcliente) REFERENCES id(cliente)
+    idingredientes int,
+    CONSTRAINT fk_receiclientes FOREIGN KEY (idcliente) REFERENCES idcliente(cliente),
+    CONSTRAINT fk_receingrediente FOREIGN KEY (idingredientes) REFERENCES id(ingredientes)
 );
 
 create table favoritos(
