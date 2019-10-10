@@ -1,24 +1,29 @@
 <html>
 <head>
-<style src="email.css" rel="stylesheet" type="text/css">
+<link href='email.css' rel='stylesheet' type='text/css' />
 </head>
 
 <body>
 
-<div id="leftside" />
+<div id="leftside" ></div>
 
 <div id="rightside">
-	<div class="form-group">
-		<p>Email atual:<p><br>
-        <input name="email" type="text" id="email" placeholder="Email">
-    </div>         
+	<a href="" ><button id="user_area"><p>Home</p></button></a>
+	<a href="usuariopage.php" ><button id="user_area"><p>Área do Usuário</p></button></a>
+	<!-- Fazer o sql connection da trocar de email-->
+	<form  action="###.php" method="post"> 	
+		<div class="form-group">
+			<p>Email Novo:</p>
+			<input name="email" type="email" id="email" placeholder="Email novo">
+		</div>
+		<div class="form-group">
+			<p>Senha:</p>
+			<input name="senha" type="password" id="senha" placeholder="Senha">
+		</div>  
+			<button type="submit" id="enviar">Alterar Email</button>
+	</form>	
+</div>
 
-	
-	<div class="form-group">
-		<p>Email novo:<p><br>
-        <input name="newemail" type="text" id="email" placeholder="Email">
-    </div> 
-</div>	
 	
 	<!-- <div class="form-group"> 
 		<input name="senha" type="password" id="senha" placeholder="Senha">
