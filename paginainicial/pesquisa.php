@@ -3,16 +3,15 @@
     $usuario = "root";
     $senha = "";
     $dbname = "BananaSQL";
-    //Criar a conexao
+
     $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
     
     $pesquisar = $_POST['pesquisar'];
-    echo $pesquisar
-  //  $result = "SELECT * FROM receitas WHERE nome LIKE '%$pesquisar%' LIMIT 5";
-  //  $resultado = mysqli_query($conn, $result_cursos);
+    $result  = "SELECT * FROM ingredientes WHERE nome LIKE '%$pesquisar%' LIMIT 5";
+    $resultado = mysqli_query($conn, $result);
     
-  //  while($rows_cursos = mysqli_fetch_array($resultado_cursos)){
-  //      echo "Nome do curso: ".$rows_cursos['nome']."<br>";
-  //  }
-//https://www.youtube.com/watch?v=cvLaqZQnIEo
+    while($rows_ingredientes = mysqli_fetch_array($resultado)){
+      echo "ingrediente: ".$rows_ingredientes['Nome']."<br>";
+      echo "id do ingrediente: ".$rows_ingredientes['idingredientes']."<br>";
+    }
 ?>
