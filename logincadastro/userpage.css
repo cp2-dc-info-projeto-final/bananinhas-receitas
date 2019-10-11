@@ -126,7 +126,7 @@
 .divbx{
 	top: 65%;
 	height: 60%;
-	background-color: #DCDCDC;
+	background-color: #FFD700;
 	width: 90%;
 	left: 5%;
 	position: absolute;
@@ -134,22 +134,25 @@
 }
 
 	.divbx #div1 {
-		top: 5%;
-		width: 45%;
-		left: 3%;
+		top: 0%;
+		width: 49%;
+		left: 0%;
+		background-color: #DCDCDC;
 		position: absolute;
-		bottom: 5%;	
-		border: 3px solid black;		
+		bottom: 0%;	
+		border: 3px solid black;	
+		border-radius: 15px;
 		
 	}
 	
 	.divbx #div2 {
-		top: 5%;
-		width: 45%;
-		right: 3%;
+		top: 0%;
+		width: 49%;
+		right: 0%;
 		position: absolute;
-		bottom: 5%;
+		bottom: 0%;
 		border: 3px solid black;
+		border-radius: 15px;
 	}
 	
 	.divbx #ft1{
