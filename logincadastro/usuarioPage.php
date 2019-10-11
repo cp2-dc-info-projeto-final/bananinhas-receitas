@@ -20,27 +20,40 @@
 
 	<nav class="menu">
 		<ul>
-			<li><a href="">HOME</a></li>
-			<li><a href="email.php">ALTERAR EMAIL</a></li>
-			<li><a href="senha.php">ALTERAR SENHA</a></li>
-			<li><a href="">CADASTRAR RECEITAS</a></li>
-			<li><a href="">CADASTRAR INGREDIENTES</a></li>
-			<li><a href="">MINHAS RECEITAS</a></li>
-			<li><a href="">MEUS INGREDIENTES</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="email.php">Alterar Email</a></li>
+			<li><a href="senha.php">Alterar Senha</a></li>
+			<li><a href="">Cadastrar Receitas</a></li>
+			<li><a href="">Cadastrar Ingredientes</a></li>
+			<li><a href="">Minhas Receitas</a></li>
+			<li><a href="">Meus Ingredientes</a></li>
 		</ul>
 	</nav>
 
-	<div id="div1"><a src="hh.php">
+<div class="divbx"><a src="hh.php">
+	<a src="hh.php">
+	<div id="div1">
 		<p class="bof">Gosta de Cozinhar?</p>
 		<p class="bof">Cadastre suas Receitas!</p>
-		<img id="ft1" src="Imagens\cozinhaimg.jpg" />
-		<p class="bof">Mostre seu Talento ao Mundo!</p></a>
+		<p class="bof">Mostre seu Talento ao Mundo!</p>
 	</div>
-
+	</a>
+	
+	<a src="hh.php">
+	<div id="div2">
+		<a href="senha.php" ><img id="ft1" src="Imagens\cozinhaimg.jpg" /></a>
+	</div>
+	</a>
+	
+	
 	<div id="div2">
 		<p class="bof"></p>
 		<img src="" />
-	</div>
+	</div></a>
+</div>
+
+
+
 
 </body>
 

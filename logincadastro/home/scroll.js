@@ -27,5 +27,5 @@ $(window).scroll(function () {
         $('.efect').addClass('animated fadeIn');
     })
      $('.receitaspequenas').waypoint(function(direction) {
-        $('.conteudocinza4').addClass('animated fadeIn');
+        $('#conteudocinza4').addClass('animated fadeIn');
     })
