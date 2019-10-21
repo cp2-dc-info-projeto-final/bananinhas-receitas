@@ -2,8 +2,8 @@
    require "senha.php";
    session_start();
 
-    $senha = $_POST["senha1"]; \\senha antiga
-    $senha2 = $_POST["senha2"]; \\senha nova
+    $senha = $_POST["senha1"]; 
+    $senha2 = $_POST["senha2"]; 
 	
 	if (senha == senha2){
 		$erro = "As senhas coincidem, escreva uma nova senha";        
@@ -11,9 +11,10 @@
         header("Location: senha.php");
         exit();
 	}
-	
-	$sql = "ALTER TABLE cliente
-			"
-
-
+    
+    if(senha != senha2){
+    $senha = $_POST["senha2"];
+    $sql = "UPDATE cliente
+            SET = $senha";
+    }
 ?>
