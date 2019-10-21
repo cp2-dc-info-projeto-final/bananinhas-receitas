@@ -20,7 +20,7 @@ $resultado_receitas = mysqli_query($conn,$result_receitas);
 
 if(mysqli_insert_id($conn)){
     $_SESSION['msg'] = "<p style= 'color:black;'>Receita cadastrado com sucesso";
-    header("location:receitas.php");
+    header("location:especificadoringrediente.php");
 } else{
     $_SESSION['msg']="<p style= 'color:black;'>Receita não foi cadastrado com sucesso</p>";
     header("location:receitas.php");
