@@ -2,7 +2,7 @@
 
 ?>
 <html>
-<form id="contact" action="receitasControle.php" method="post">
+<form id="contact" action="" method="post">
 <input type="text" id="ingrediente" placeholder="ingredientes da receita" required="required">
 <button type="submit" id="cadastrar">Cadastrar</button>
 </form>
