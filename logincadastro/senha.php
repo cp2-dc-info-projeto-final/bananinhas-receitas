@@ -22,12 +22,13 @@
 			<input name="senha2" type="password" id="senha2" placeholder="Senha Nova">
 		</div>  
 			<button type="submit" id="enviar">ALTERAR SENHA</button>
+			
 			<script>
-				if(senha1 != senha2)
+				if(senha != senha2)
 					{alert('Senha alterada com sucesso!');}
 
 				
-				if(senha1 == senha2)
+				if(senha == senha2)
 					{alert('As senhas coincidem, escreva uma nova senha');}
 			</script>
 	</form>	
