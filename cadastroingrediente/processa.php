@@ -4,7 +4,8 @@ session_start();
 
 $Nome = $_POST["nome"];
 $ModPreparo = $_POST["ModPreparo"];
-$result_ingredientes = "INSERT INTO ingredientes (nome, ModPreparo) VALUES ('$Nome', '$ModPreparo')";
+$NomeReceita = $_POST["NomeReceita"];
+$result_ingredientes = "INSERT INTO ingredientes (nome, ModPreparo,NomeReceita) VALUES ('$Nome', '$ModPreparo', '$NomeReceita')";
 $resultado_ingredientes = mysqli_query($conn,$result_ingredientes);
 
 if(mysqli_insert_id($conn)){

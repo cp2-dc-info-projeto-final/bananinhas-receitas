@@ -21,9 +21,9 @@ session_start();
     <form id="contact" action="processa.php" method="post">
         <h3>Cadastro de Receitas</h3>
 
-        <input type="text" name="nome" id="nome" placeholder="Nome da receita" required="required">
-        <input type="text" name="nome" id="nome" placeholder="ingrediente" required="required">
-        <input type="text" name="nome" id="nome" placeholder="ingrediente" required="required">
+        <input type="text" name="NomeReceita" id="NomeReceita" placeholder="Nome da receita" required="required">
+      
+       
         <input type="text" name="nome" id="nome" placeholder="ingrediente" required="required">
         <input type="text" name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required">
         <button type="submit" id="cadastrar">Cadastrar</button>
