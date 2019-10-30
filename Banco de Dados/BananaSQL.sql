@@ -10,11 +10,6 @@ create table cliente(
     datanasc date
 );
 
-create table ingredientes(
-    id int primary key,
-    Nome varchar(50)
-);
-
 create table categoria(
     idreceitas int primary key,
     Nome varchar(50)
@@ -24,20 +19,12 @@ create table receitas(
     idreceitas int primary key,
     nome varchar(50),
     descricao varchar(200),
-    mododepreparo varchar(1000),
+    mododepreparo varchar(100000),
+    ingredientes varchar(1000)
     ultimaatualizacao date,
     nota int,
     idcliente int,
     CONSTRAINT fk_receiclientes FOREIGN KEY (idcliente) REFERENCES idcliente(cliente)
-);
-
-create table receitaingrediente(
-    idreceita int,
-    idingrediente int,
-    quantingr int,
-    escalausada varchar(30),
-    CONSTRAINT fk_receitasing FOREIGN KEY (idreceita) REFERENCES id(receitas),
-    CONSTRAINT fk_ingredientesreceita FOREIGN KEY (idingrediente) REFERENCES id(ingredientes)
 );
 
 create table favoritos(
