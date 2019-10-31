@@ -26,6 +26,7 @@ session_start();
        
         <input type="text" name="nome" id="nome" placeholder="ingrediente" required="required">
         <input type="text" name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required">
+        <input type="text" name="Descri" id="Descri" placeholder="Descrição" required="required">
         <button type="submit" id="cadastrar">Cadastrar</button>
     </form>
 </div>
