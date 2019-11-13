@@ -11,10 +11,26 @@
 	</div>
 	
 	<div class ="logado">
+	
+<?php
+	$conn = mysqli_connect("localhost", "root", "", "bananaSQL");
+        // Check connection
+        if($conn === false){
+            die("Deu ruim mano!" . mysqli_connect_error());
+        }
+		
+		$select = mysqli_select_db($bananaSQL);
+		
+		$sql = "SELECT * FROM Cliente";
+		
+		
+		
+		<html>
 			<p>Olá @nome!</p>
 			<p>Bem vindo à área do usuário!</p>
-	</div>
+		</div>
 	
+?>
 </header>
 
 
