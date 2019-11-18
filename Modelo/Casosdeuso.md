@@ -1,6 +1,6 @@
 
 <h1>Sumário</h1>
-<h3>CDU 01 - Cadastro de Pessoa física.</h3>
+<h3>CDU 01 - Cadastro de Pessoa .</h3>
 <h3>CDU 02- Login. </h3>
 <h3>CDU 03- Pesquisar por Ingredientes.</h3>
 <h3>CDU 04- Pesquisar por Receitas.</h3>
@@ -13,18 +13,18 @@
 
 
 
-<h3>CDU 01 - Cadastro de Pessoa física</h3>
+<h3>CDU 01 - Cadastro de Pessoa </h3>
 
 
 Atores: Qualquer indivíduo
 
 
-Pré-Condições: Possuir um e-mail ou telefone válidos.
+Pré-Condições: Possuir um e-mail.
 
 
 Fluxo Principal:
 1)
- O indivíduo entra com os dados telefone ou E-mail e senha.
+ O indivíduo entra com os dados telefone,E-mail e senha.
 
 
 2) Após a entrada de dados o sistema fará uma checagem, caso haja uma conta utilizando os dados o mesmo enviará uma mensagem indicando o erro.
