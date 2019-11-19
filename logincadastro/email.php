@@ -11,7 +11,7 @@
 	<a href="" ><button id="user_area"><p>Home</p></button></a>
 	<a href="usuariopage.php" ><button id="user_area"><p>Área do Usuário</p></button></a>
 	<!-- Fazer o sql connection da trocar de email-->
-	<form  action="###.php" method="post"> 	
+	<form  action="altEmail.php" method="POST"> 	
 		<div class="form-group">
 			<p>Email Novo:</p>
 			<input name="email" type="email" id="email" placeholder="Email novo">

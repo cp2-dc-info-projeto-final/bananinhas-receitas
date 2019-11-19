@@ -23,7 +23,7 @@
 	}
 	if($senha != $senha2  && $senha == $senha1 && $senha2 != null){
         $sql = "UPDATE cliente
-            SET = $senha2";			
+            SET senha = $senha2";			
 		msg('Senha alterada com sucesso!');
         header("Location: usuarioPage.php");        
         exit();
