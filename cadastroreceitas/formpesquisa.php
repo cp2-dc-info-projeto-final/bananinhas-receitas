@@ -1,4 +1,9 @@
-<form method="post" action="pesquisa.php">
-    pesquisar:<input type="text" id="pesquisar" name="pesquisar">
-    <input type="submit" value="buscar">
-</form>
+<?php
+    session_start();
+?>
+<html>
+    <form method="post" action="pesquisa.php">
+        pesquisar:<input type="text" id="pesquisar" name="pesquisar">
+        <input type="submit" value="buscar">
+    </form>
+</html>
