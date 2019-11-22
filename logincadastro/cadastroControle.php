@@ -21,7 +21,7 @@
     
     if (cadastro($nome,$email,$tel,$datanasc,$hash,$sexo)) {
         session_unset();
-        header("Location: LoginCasdastro.php");
+        header("Location: usuarioPage.php");
         exit();
     } else {
         $erro = "E-mail indisponível";

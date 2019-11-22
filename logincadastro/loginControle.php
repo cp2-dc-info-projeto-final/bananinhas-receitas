@@ -10,7 +10,7 @@
     {
         session_unset();
         $_SESSION["nome"] = $row["nome"];
-        header("Location: main.html");
+        header("Location: usuarioPage.php");
         exit();
     } else {
         $erro = "Login ou senha incorreta";

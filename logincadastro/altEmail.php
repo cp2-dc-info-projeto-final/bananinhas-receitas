@@ -5,10 +5,9 @@
 
 
     $email = $_POST["email"];
-	$email2 = mysqli_query($conexao, "SELECT email FROM cliente");
+	$email2 = $_POST["email2"];
 	$senha = $_POST["senha"]; 
 	$rash = mysqli_query($conexao, "SELECT senha FROM cliente");
-
 
     if($email1 == "" || $email1 == null){
         $msg = "Insira um novo email válido";
@@ -24,7 +23,7 @@
 	}
 	if($email != $email2 && password_verify($senha, $hash)){
         $sql = "UPDATE cliente
-            SET email = $email";			
+            SET email = '$email' where email = '$email' ";			
 		msg('Senha alterada com sucesso!');
         header("Location: usuarioPage.php");        
         exit();

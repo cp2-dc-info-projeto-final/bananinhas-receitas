@@ -13,8 +13,12 @@
 	<!-- Fazer o sql connection da trocar de email-->
 	<form  action="altEmail.php" method="POST"> 	
 		<div class="form-group">
+			<p>Email Atual:</p>
+			<input name="email" type="email" id="email" placeholder="Email atual">
+		</div>
+		<div class="form-group">
 			<p>Email Novo:</p>
-			<input name="email" type="email" id="email" placeholder="Email novo">
+			<input name="email2" type="email" id="email" placeholder="Email novo">
 		</div>
 		<div class="form-group">
 			<p>Senha:</p>

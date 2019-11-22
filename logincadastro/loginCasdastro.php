@@ -53,6 +53,7 @@
               </div>
               
               <button type="submit" id="enviar">Enviar</button>
+              <!--<button>Enviar</button>-->
            </form>
           <button id="goleft" class="off">Já tenho</button>
           </div>
