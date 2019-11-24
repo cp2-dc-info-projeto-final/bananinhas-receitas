@@ -42,8 +42,6 @@ session_start();
 			<li><a href="senha.php">Alterar Senha</a></li>
 			<li><a href="">Cadastrar Receitas</a></li>
 			<li><a href="">Cadastrar Ingredientes</a></li>
-			<li><a href="">Minhas Receitas</a></li>
-			<li><a href="">Meus Ingredientes</a></li>
 		</ul>
 	</nav>
 
