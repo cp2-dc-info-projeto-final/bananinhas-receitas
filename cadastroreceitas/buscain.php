@@ -5,8 +5,8 @@ if (session_status() == false) {
 }
 ?>
 <html>
-    <form method="post" action="pesquisa.php">
-        pesquisar receita pelo nome:<input type="text" id="pesquisar" name="pesquisar">
+    <form method="post" action="buscainrows.php">
+        pesquisar receita pelo ingrediente:<input type="text" id="pesquisar" name="pesquisar">
         <input type="submit" value="buscar">
     </form>
 </html>
