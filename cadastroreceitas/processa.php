@@ -6,7 +6,9 @@ $nome = $_POST["nome"];
 $ModPreparo = $_POST["ModPreparo"];
 $descricao = $_POST["descricao"];
 $ingredientes = $_POST["ingredientes"];
-$result_receitas = "INSERT INTO receitas (id, nome, ModPreparo, descricao, ingredientes) VALUES ('', '$nome', '$ModPreparo', '$descricao', '$ingredientes')";
+
+$result_receitas = "INSERT INTO receitas (nome, descricao, ModPreparo, ingredientes) VALUES 
+('$nome', '$descricao', '$ModPreparo', '$ingredientes')";
 $resultado_receitas = mysqli_query($conn,$result_receitas);
 
 if(mysqli_insert_id($conn)){
