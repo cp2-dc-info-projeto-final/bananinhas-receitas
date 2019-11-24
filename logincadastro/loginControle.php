@@ -8,6 +8,8 @@
 	
     if (login($email, $senha))
     {	session_start();
+		$_SESSION['email'] = $email;
+		$_SESSION['id'] = $id;
         $_SESSION["nome"] = $row["nome"];
         header("Location: usuarioPage.php");
         exit();

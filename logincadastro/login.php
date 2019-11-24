@@ -7,7 +7,7 @@
             die("Deu ruim mano!" . mysqli_connect_error());
         }
 
-        $sql = "SELECT senha,nome FROM cliente WHERE email='$email'";
+        $sql = "SELECT senha,nome,id FROM cliente WHERE email='$email'";
         $result = mysqli_query($connection, $sql);
         $erro = "";
         
