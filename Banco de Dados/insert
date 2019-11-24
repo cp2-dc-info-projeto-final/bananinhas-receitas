@@ -1,0 +1,1 @@
+INSERT INTO receitas (idreceitas,nome,descricao,Modpreparo,ingredientes) VALUES ('1111','Bolo de banana','bolo feito de banana', 'mistura o bolo com as bananas',' bolo e banana')
