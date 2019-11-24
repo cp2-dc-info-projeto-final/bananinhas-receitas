@@ -15,16 +15,23 @@ create table categoria(
     Nome varchar(50)
 );
 
+create table ingredientes(
+
+idingrediente int primary key,
+Descri varchar (500)
+ModPreparo varchar(9999),
+Nome varchar(100),
+NomeReceita varchar(100),
+
+);
+
 create table receitas(
     idreceitas int primary key,
-    nome varchar(50),
+    nomereceita varchar(500),
     descricao varchar(2000),
-    ModPreparo varchar(10000),
-    ingredientes varchar(1000),
-    ultimaatualizacao date,
-    nota int,
-    idcliente int,
-    CONSTRAINT fk_receiclientes FOREIGN KEY (idcliente) REFERENCES idcliente(cliente)
+    modpreparo varchar(1000),
+     nome varchar(1000)
+
 );
 
 create table favoritos(
