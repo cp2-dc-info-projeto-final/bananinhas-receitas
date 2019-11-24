@@ -62,5 +62,9 @@ body {
     width: 0px;
     font-weight: bold;
    }
+button{
+	border: none;
+	background-color:#2f3640;
+}
    
    
