@@ -9,6 +9,7 @@
 
         $sql = "SELECT id FROM cliente WHERE email='$email'";
         $result = mysqli_query($conn, $sql);
+		
         $erro = "";
         
         if (mysqli_num_rows($result) > 0) {

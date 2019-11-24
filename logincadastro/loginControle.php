@@ -4,11 +4,10 @@
 
     $email = $_POST["email"];
     $senha = $_POST["senha"];
-
-    session_start();
+	
+	
     if (login($email, $senha))
-    {
-        session_unset();
+    {	session_start();
         $_SESSION["nome"] = $row["nome"];
         header("Location: usuarioPage.php");
         exit();

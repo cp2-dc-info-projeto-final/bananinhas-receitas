@@ -1,7 +1,7 @@
 <?php
 
    require "cadastro.php";
-   session_start();
+
 
     $nome = $_POST["nome"];
     $email = $_POST["email"];
@@ -10,6 +10,8 @@
     $senha = $_POST["senha"];
     $senha2 = $_POST["senha2"];
     $sexo = $_POST["sexo"];
+	
+	$id = mysqli_fetch_array($result);
 
     if ($senha != $senha2) {    
         $erro = "As senhas não coincidem";        
@@ -20,7 +22,9 @@
     $hash = password_hash($senha, PASSWORD_DEFAULT);
     
     if (cadastro($nome,$email,$tel,$datanasc,$hash,$sexo)) {
-        session_unset();
+		session_start();
+		$_SESSION['id'] = $id;
+		$_SESSION['email'] = $email;
         header("Location: usuarioPage.php");
         exit();
     } else {

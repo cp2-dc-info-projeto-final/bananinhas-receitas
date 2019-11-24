@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <html>
 <head>
 	<link href='userpage.css' rel='stylesheet' type='text/css'>
@@ -11,6 +15,19 @@
 	</div>
 	
 	<div class ="logado">
+		
+		<?php
+		
+			$conexao = mysqli_connect('localhost', 'root', '', 'bananaSQL');
+			$email = $_SESSION['email'];
+			$sql = "SELECT nome,id FROM cliente WHERE email = '$email' ";
+			$date = mysqli_query($conexao, $sql);
+			$result = mysqli_fetch_array($date);
+			
+			echo "SEJA BEM VINDO ".$result['nome']."!".$result['id']; 
+		?> 
+
+	</div>
 	
 
 </header>
@@ -18,7 +35,7 @@
 
 	<nav class="menu">
 		<ul>
-			<li><a href="">Home</a></li>
+			<li><a href="home\home.html">Home</a></li>
 			<li><a href="email.php">Alterar Email</a></li>
 			<li><a href="senha.php">Alterar Senha</a></li>
 			<li><a href="">Cadastrar Receitas</a></li>
