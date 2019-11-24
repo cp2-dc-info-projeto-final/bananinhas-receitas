@@ -13,12 +13,12 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <body>
     
         <?php
-            echo $_SESSION['id']
+            echo $_SESSION['id'];
+            echo $_SESSION['nome'];
+            echo $_SESSION['descricao'];
+            echo $_SESSION['modpreparo'];
+            echo $_SESSION['ingredientes']
         ?>
-        <a name="Nome"></a>
-        <a name="descrição"></a>
-        <a name="Ingredientes"></a>
-        <a name="mododepreparo"></a>
         <div>
 
         </div>
