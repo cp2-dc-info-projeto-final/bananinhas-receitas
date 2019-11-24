@@ -23,9 +23,11 @@ session_start();
 			$sql = "SELECT nome,id FROM cliente WHERE email = '$email' ";
 			$date = mysqli_query($conexao, $sql);
 			$result = mysqli_fetch_array($date);
-			
-			echo "SEJA BEM VINDO ".$result['nome']."!".$result['id']; 
-		?> 
+			 
+			echo "Usuário: ".$result['nome']; 
+		?>
+
+		<a href="loginCasdastro.php" >SAIR</a>
 
 	</div>
 	
