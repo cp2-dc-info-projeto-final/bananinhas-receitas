@@ -30,7 +30,7 @@
           unset($_SESSION['msg']);
         }
         ?>
-
+			<a href="home\home.html" ><button id="user_area"><p>Home</p></button></a>
                     <h2><b>REGISTRAR<b></h2>
           <form action="cadastroControle.php" method="post"> 
             <div class="form-group">
@@ -68,6 +68,7 @@
 
           } 
             ?> 
+			<a text-decoration: none; href="home\home.html" ><button id="user_area"><p>Home</p></button></a>
           <h2><b>LOGIN<b></h2>
           <form action="loginControle.php" method="post"> 
         <div class="form-group">
