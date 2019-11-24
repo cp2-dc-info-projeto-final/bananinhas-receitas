@@ -14,15 +14,15 @@
 	<form  action="altEmail.php" method="POST"> 	
 		<div class="form-group">
 			<p>Email Atual:</p>
-			<input name="email" type="email" id="email" placeholder="Email atual">
+			<input name="email" type="email" id="email" placeholder="Email atual" required>
 		</div>
 		<div class="form-group">
 			<p>Email Novo:</p>
-			<input name="email2" type="email" id="email" placeholder="Email novo">
+			<input name="email2" type="email" id="email" placeholder="Email novo" required>
 		</div>
 		<div class="form-group">
 			<p>Senha:</p>
-			<input name="senha" type="password" id="senha" placeholder="Senha">
+			<input name="senha" type="password" id="senha" placeholder="Senha" required>
 		</div>  
 			<button type="submit" id="enviar">Alterar Email</button>
 	</form>	
