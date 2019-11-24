@@ -1,5 +1,8 @@
 <?php
+if (session_status() == false) {
     session_start();
+    echo"bla bla bla";
+}
 ?>
 <html>
     <form method="post" action="pesquisa.php">
