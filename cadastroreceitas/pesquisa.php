@@ -18,5 +18,5 @@ while($rows_receitas = mysqli_fetch_array($resultado)){
       $_SESSION['modpreparo'] = $rows_receitas['ModPreparo'];
       $_SESSION['ingredientes'] = $rows_receitas['ingredientes'];
     }
-    require "formpesquisa.php"
+    
 ?>
