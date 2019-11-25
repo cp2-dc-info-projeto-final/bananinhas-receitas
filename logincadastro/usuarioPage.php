@@ -40,8 +40,7 @@ session_start();
 			<li><a href="home\home.html">Home</a></li>
 			<li><a href="email.php">Alterar Email</a></li>
 			<li><a href="senha.php">Alterar Senha</a></li>
-			<li><a href="">Cadastrar Receitas</a></li>
-			<li><a href="">Cadastrar Ingredientes</a></li>
+			<li><a href="..\cadastroreceitas\cadastroreceitas.php">Cadastrar Receitas</a></li>
 		</ul>
 	</nav>
 
