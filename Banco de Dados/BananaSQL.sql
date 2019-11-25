@@ -20,5 +20,5 @@ create table receitas(
     nome varchar(50),
     descricao varchar(2000),
     ModPreparo varchar(10000),
-    ingredientes varchar(1000),
+    ingredientes varchar(1000)
 );
