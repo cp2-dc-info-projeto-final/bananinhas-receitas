@@ -10,6 +10,9 @@ if (session_status() == false) {
 
  <body>
     <form method="POST" action="buscainrows.php">
+	
+	<div id="nomebusca"><p>___Busca por Ingredientes___</p></div>
+	
   <div class="buscar-caixa">
  
    <input type="text" name="pesquisar" class="buscar-txt" placeholder="Buscar..."/>
