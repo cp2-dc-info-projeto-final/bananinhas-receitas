@@ -10,11 +10,6 @@ create table cliente(
     datanasc date
 );
 
-create table categoria(
-    idreceitas int primary key,
-    Nome varchar(50)
-);
-
 create table receitas(
     idreceitas int primary key,
     nome varchar(50),
@@ -22,3 +17,6 @@ create table receitas(
     ModPreparo varchar(10000),
     ingredientes varchar(1000)
 );
+
+ALTER TABLE `receitas` CHANGE `idreceitas` `idreceitas` INT(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `cliente` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
