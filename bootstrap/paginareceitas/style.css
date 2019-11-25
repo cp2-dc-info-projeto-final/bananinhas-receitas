@@ -1,0 +1,19 @@
+.header-site{
+	background-image:url(culinaria.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	padding-top: 300px;
+	padding-bottom:300px;
+}
+
+.contentsite{
+	margin-top:-100px;
+
+}
+
+.contentmin{
+ 
+}
