@@ -1,0 +1,178 @@
+/* Aqui começa o css da página do usuário*/
+	body{
+		margin: 0;
+        padding: 0;
+		background-color: #FFD700;
+	}
+/* Ínicio do menu */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+	
+	nav{
+		top: 50%;
+		width: 100%;
+		background-color: #DCDCDC;
+		height: 70px;
+		position: absolute;
+		left: 0%;
+	}
+	
+	nav ul{
+		margin: 0;
+        padding: 0;
+		width: 100%;
+		height: 70px;
+		list-style: none;
+		position: absolute;
+		left: 0%;
+		top: 0%;
+	}
+
+	.menu ul {
+		list-style: none;
+		position:absolute;
+		top: 0px;
+		left: 
+	}
+	.menu li {
+            position: relative;
+			height: 70px;
+			top: 0;
+        }
+
+	.menu a {
+		padding-top: 20px;
+		display:block;
+		text-decoration: none;
+		text-align: center;
+		height: 70px;
+		width: 100%;
+		position: absolute;
+		font-size: 20px;
+		float: center;
+		font-family: 'Raleway', sans-serif;
+		color: black;
+	}
+	.menu ul ul {	
+		visibility: hidden;
+	}
+	
+	.menu ul li {
+            float: left;
+			width: 25%;
+        }
+
+	.menu ul li:hover a{
+		width: 100%;
+		height: 50px;
+		position: absolute;
+		background-color: black;
+		color: orange;
+	}
+
+	.menu a{
+
+	}
+/* Fim do menu*/
+
+	
+/* Ínicio da header*/
+	
+	header{
+		height: 50%;
+		width: 100%;
+		background-color: #CC6532;
+		position: absolute;
+		margin: 0;
+        padding: 0;
+	}
+	
+	#img_banana{
+		height: 100%;
+		width: 30%;
+		position: absolute;
+		left: 35%;
+		border: black;
+	}
+	
+	#img_banana img{
+		width: 100%;
+		height: 100%;
+		float: center;
+		position: absolute;
+		border: black;
+	}
+	
+/* Fim da header*/	
+	
+/* Ínicio da Topdiv*/	
+	.logado{
+		width: 15%;
+		height: 50%;
+		position: absolute;
+		right: 3%;
+		top: 25%;
+		border: 1px solid #C0C0C0;
+	}
+	.logado p{
+		font: 'Times New Roman' 'Verdana', sans-serif;
+		font-size: 20px;
+		color: #FFD700;
+	}
+/* Fim da Topdiv*/	
+
+/* Ínicio do corpo*/	
+
+.divbx{
+	top: 65%;
+	height: 60%;
+	background-color: #FFD700;
+	width: 90%;
+	left: 5%;
+	position: absolute;
+	border-radius: 15px;
+}
+
+	.divbx #div1 {
+		top: 0%;
+		width: 49%;
+		left: 0%;
+		background-color: #DCDCDC;
+		position: absolute;
+		bottom: 0%;	
+		border: 3px solid black;	
+		border-radius: 15px;
+		
+	}
+	
+	.divbx #div2 {
+		top: 0%;
+		width: 49%;
+		right: 0%;
+		position: absolute;
+		bottom: 0%;
+		border: 3px solid black;
+		border-radius: 15px;
+	}
+	
+	.divbx #ft1{
+		height: 100%;
+		width: 100%;
+	}
+	
+	.bof{
+		margin: auto;
+		padding-top: 40px;
+		color: black;
+		font-size: 45px;
+		font-family: 'impact', 'Verdana', sans-serif;
+		text-align: center;
+		max-width: 100%; 
+		max-height: 100%;
+	}
+
+/* Fim do corpo*/
+
+
+	
+
