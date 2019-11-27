@@ -24,10 +24,10 @@ if (session_status() == false) {
                 <nav class="menu">
                   <ul>
                     <li>
-                      <a href="..\..\cadastroreceitas\formpesquisa.php" title="Receitas"> Busca(Nome)</a>
+                      <a href="..\cadastroreceitas\formpesquisa.php" title="Receitas"> Busca(Nome)</a>
                     </li>
                     <li>
-                      <a href="..\..\cadastroreceitas\buscain.php" title="Ingredientes">Busca(Ingredientes)</a>
+                      <a href="..\cadastroreceitas\buscain.php" title="Ingredientes">Busca(Ingredientes)</a>
                     </li>
                     <li>
                       <a href="#conteudocinza4" title="Sobre"> Sobre nós </a>
