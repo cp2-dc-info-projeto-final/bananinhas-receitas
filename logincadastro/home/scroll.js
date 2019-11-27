@@ -26,6 +26,6 @@ $(window).scroll(function () {
     $('.conteudocinza2').waypoint(function(direction) {
         $('.efect').addClass('animated fadeIn');
     })
-     $('.receitaspequenas').waypoint(function(direction) {
+     $('.conteudocinza2').waypoint(function(direction) {
         $('#conteudocinza4').addClass('animated fadeIn');
     })
