@@ -12,8 +12,8 @@ body {
     background-color: #cc6532;
     background-image: url("../Imagens/bananalogo.png");
     background-repeat:no-repeat;
-background-position:left;
-background-size: 50% ;
+    background-position:left;
+    background-size: 50%;
    }
 
 .j1{ display: inline; 
@@ -32,27 +32,60 @@ background-size: 50% ;
      }
 .li{
 
-margin-top:26;
+.lista{
 display:inline-block;
-
-}
-.li a{text-decoration:none;
-color:#fff;
-text-transform:uppercase;
-font-family: 'Alatsi', sans-serif;
-font-weight:lighet;
-font-size:24px;
-transition:1s;
-padding:25px 30px;
-
-
-}
-.li a:hover{
-    transition:1s;
-    color: black;
-    background:rgba(255,255,255,0.7);
+width: 50%;
+height:40px;
+float:left;
+position:relative;
+border-width:2px;
+text-align:center;
+color:white;
+margin-left:15%;
+text-decoration: none;
+margin-right:20%;
 }
 
+
+.menu li{
+  float:left;
+  list-style: none;
+  margin: 5px 0 0;
+
+}
+
+.menu li u {
+
+  display:inline-block;
+
+}
+
+.menu ul li{
+  margin: 0 10px;
+  font-size:25px;
+
+}
+
+.menu ul li a{
+   text-decoration: none;
+   font-size:20px;
+   color:white;
+   padding:10px;
+  }
+
+.logincadastro{
+  background-color:black;
+  float:right;
+  width:150px;
+  height:70px;
+}
+
+.logincadastro a{
+  text-decoration:none;
+  font-family: 'Raleway', sans-serif;
+  width: 75px;
+  color: white;
+}
 
    .buscar-caixa {
     position: absolute;
