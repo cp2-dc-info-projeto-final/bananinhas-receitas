@@ -1,3 +1,9 @@
+html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,20 +15,21 @@ body {
 background-position:left;
 background-size: 50% ;
    }
-   
-.j1{text-align:center; 
+
+.j1{ display: inline; 
 }
 
  .nav{
      height:82px;
-    } 
+    }
 
    ul{
        margin: auto;
        width:100%;
        height:50px;
        list-style:none;
-       background:rgba(0,0,0,0.2);}
+       background:rgba(0,0,0,0.2);
+     }
 .li{
 
 margin-top:26;
@@ -45,8 +52,8 @@ padding:25px 30px;
     color: black;
     background:rgba(255,255,255,0.7);
 }
-   
-   
+
+
    .buscar-caixa {
     position: absolute;
     top: 50%;
@@ -57,17 +64,17 @@ padding:25px 30px;
     border-radius: 40px;
     padding: 10px;
    }
-   
+
    .buscar-caixa:hover > .buscar-txt {
     width: 240px;
     padding: 0 6px;
    }
-   
+
    .buscar-caixa:hover > .buscar-btn {
     background: #2f3640 ;
     color: black;
    }
-   
+
    .buscar-btn {
     color: #e84118;
     float: right;
@@ -82,11 +89,11 @@ padding:25px 30px;
     color: white;
     cursor: pointer;
    }
-   
+
    .buscar-btn > i {
     font-size: 30px;
    }
-   
+
    .buscar-txt {
     border: none;
     background: none;
@@ -107,10 +114,8 @@ button{
 
 
 p{
-	
+
 	font-size: 160px;
-	font-family: Impact, fantasy;	
-	
+	font-family: Impact, fantasy;
+
 }
-   
-   
