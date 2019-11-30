@@ -2,25 +2,64 @@
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
   }
+
+include "../home/links.php"; include "../home/nav.php";
+
 ?>
 <!DOCTYPE html>
 
 <html lang= "pt-bt">
     <head>
+    <link href="paginareceita.css" rel="Stylesheet" type="text/css">
         <meta charset= "utf-8">
-        <title>Pagina de receitas</title>
+        <title> receitas</title>
     </head>
     <body>
-    
+   
+       
+       
+        <div class="container">
+    <form id="contact" action="processa.php" method="post">
+        <h3>Nome Da Receita</h3>
         <?php
-            echo $_SESSION['id'];
+     
             echo $_SESSION['nome'];
-            echo $_SESSION['descricao'];
-            echo $_SESSION['modpreparo'];
-            echo $_SESSION['ingredientes']
+         
         ?>
-        <div>
-
-        </div>
+     
+    </form>
+</div>
+<div class="container">
+    <form id="contact" action="processa.php" method="post">
+        <h3>Descrição</h3>
+        <?php
+     
+            echo $_SESSION['descricao'];
+         
+        ?>
+     
+    </form>
+</div>
+<div class="container">
+    <form id="contact" action="processa.php" method="post">
+        <h3>Ingredientes</h3>
+        <?php
+     
+            echo $_SESSION['ingredientes'];
+         
+        ?>
+     
+    </form>
+</div>       <div class="container">
+    <form id="contact" action="processa.php" method="post">
+        <h3>Modo De Preparo</h3>
+        <?php
+     
+            echo $_SESSION['modpreparo'];
+         
+        ?>
+     
+    </form>
+</div>
     </body>
 </html>
