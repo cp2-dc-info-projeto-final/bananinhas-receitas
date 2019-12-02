@@ -1,4 +1,9 @@
-<?php
+<?php 
+  
+    
+
+
+
 if (session_status() == false) {
     session_start();
     echo"bla bla bla";
@@ -14,39 +19,7 @@ if (session_status() == false) {
      </head>
  <body>
  
-<div class="nav-alto">
-       <section class="nav">
-           <div class="container">
-               <div class="imgkj">
-                  
-               </div>
-               <div class="lista">
-                <nav class="menu">
-                  <ul>
-                    <li>
-                      <a href="..\cadastroreceitas\formpesquisa.php" title="Receitas"> Busca(Nome)</a>
-                    </li>
-                    <li>
-                      <a href="..\cadastroreceitas\buscain.php" title="Ingredientes">Busca(Ingredientes)</a>
-                    </li>
-                    <li>
-                      <a href="#conteudocinza4" title="Sobre"> Sobre nós </a>
-                    </li>
-                  </ul>
-                </nav>
-               </div>
-               <div class="logincadastro">
 
-               <a href="..\loginCasdastro.php" class="logincadastro" title="Cadastrologin">         
-               Logar ou Cadastrar
-               </a>
-         <a href="..\userorlogin.php" class="logincadastro" title="Cadastrologin">          
-               Área do Usuário
-               </a>
-               </div>
-           </div>
-       </section>
-    </div>
 
     <form method="POST" action="pesquisa.php" >
 	
