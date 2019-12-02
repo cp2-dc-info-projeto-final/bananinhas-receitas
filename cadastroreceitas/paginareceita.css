@@ -15,18 +15,8 @@ body {
     background-size: 50% ;
     background-position: left;
   }
-  textarea {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: .8rem;
-    letter-spacing: 1px;
-  }
-  textarea {
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-  }
+  
+
   
   label {
     display: block;
@@ -86,13 +76,7 @@ body {
       
       [type="text"],
       
-      #contact textarea {
-        width: 100%;
-        border: 1 px solid #ccc;
-        background: #FFF;
-        margin: 0 0 5px;
-        padding: 10px;
-      }
+   
       
       
       

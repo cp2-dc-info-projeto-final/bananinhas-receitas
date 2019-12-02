@@ -1,9 +1,11 @@
 <?php
 session_start();
+include "../home/links.php"; include "../home/nav.php";
 ?>
+
 <!DOCTYPE html>
 
-<html lang= "pt-bt">
+<html lang= "pt-br">
 <head>
     <meta charset= "utf-8">
     <title>Cadastro</title>

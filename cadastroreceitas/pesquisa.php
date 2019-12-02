@@ -1,13 +1,15 @@
 <?php
+
 require "pesquisacon.php";
 if (session_status() !== true){
   session_start();
 
      require "formpesquisa.php";
+     
 
 }
 $pesquisar = $_POST['pesquisar'];
-$sql  = "SELECT idreceitas, nome, descricao, ModPreparo, ingredientes FROM receitas WHERE nome ILIKE '%$pesquisar%' LIMIT 10";
+$sql  = "SELECT idreceitas, nome, descricao, ModPreparo, ingredientes FROM receitas WHERE nome LIKE '%$pesquisar%' LIMIT 10";
 $resultado = mysqli_query($conn, $sql);
 while($rows_receitas = mysqli_fetch_array($resultado)){
       echo " ".$rows_receitas['nome']."<br>";
