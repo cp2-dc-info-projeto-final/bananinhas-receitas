@@ -24,7 +24,7 @@ session_start();
         <input type="text" name="nome" id="nome" placeholder="Nome da receita" required="required">
         <input type="text" name="descricao" id="descricao" placeholder="descrição" required="required">
         <input type="text" name="ingredientes" id="ingredientes" placeholder="ingredientes" required="required">
-        <input type="text" name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required">
+        <textarea name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required" rows="5" cols="33"></textarea>
         <button type="submit" id="cadastrar">Cadastrar</button>
     </form>
 </div>
