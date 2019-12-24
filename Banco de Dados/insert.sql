@@ -2,7 +2,7 @@ INSERT INTO cliente(id,nome,email,tel,senha,sexo,datanasc)VALUES
 (1,'Felipe Siqueira','lysgd@gmail.com','987654321','$2y$10$nbaF.iB1yhMmEyvDEFt4N.sonCkiQGttLbEpDYJ29eo16kBd.oG3e','masculino','2001-02-17'),
 (2,'Uilson Castro','uilson@gmail.com','987654321','$2y$10$nbaF.iB1yhMmEyvDEFt4N.sonCkiQGttLbEpDYJ29eo16kBd.oG3e','masculino','2002-04-16'),
 (3,'Matheus','matheus@gmail.com','987654321','$2y$10$nbaF.iB1yhMmEyvDEFt4N.sonCkiQGttLbEpDYJ29eo16kBd.oG3e','masculino','2001-12-21'),
-(4,'Thaynan','thaynan@gmail.com','987654321','$2y$10$nbaF.iB1yhMmEyvDEFt4N.sonCkiQGttLbEpDYJ29eo16kBd.oG3e','masculino','2002-06-15'),
+(4,'Thaynan','thaynan@gmail.com','987654321','$2y$10$nbaF.iB1yhMmEyvDEFt4N.sonCkiQGttLbEpDYJ29eo16kBd.oG3e','masculino','2002-06-15');
 
 
 
