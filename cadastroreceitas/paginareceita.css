@@ -39,16 +39,10 @@ body {
      
       
       .container {
-        position: relative;
-        left: 400px; /* or however far you want to move it to the right */
-        max-width: 1070px;
-       
-        
-        max-height: 1000px;
-        width: 30%;
-  
+		position: absolute;
+        max-width: 50%;
+		left: 10%;
         margin: 0 auto;
-        position: right;
       }
       
       

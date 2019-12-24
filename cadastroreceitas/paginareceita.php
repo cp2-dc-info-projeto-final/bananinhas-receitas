@@ -17,7 +17,10 @@ include "../home/links.php"; include "../home/nav.php";
     <body>
     
         
-        
+<div id="right" ></div>
+
+<div id="left"> 
+       
 <div class="container">
     <form id="contact" action="processa.php" method="post">
         <h3>Nome Da Receita</h3>
@@ -31,7 +34,7 @@ include "../home/links.php"; include "../home/nav.php";
      
     </form>
 </div>
-
+</div>
     </body>
 </html>
 
