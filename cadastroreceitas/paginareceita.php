@@ -18,49 +18,20 @@ include "../home/links.php"; include "../home/nav.php";
     
         
         
-        <div class="container">
+<div class="container">
     <form id="contact" action="processa.php" method="post">
         <h3>Nome Da Receita</h3>
-        <?php
-      
-            echo $_SESSION['nome'];
-          
-        ?>
+			<?php  echo "<p>" .$_SESSION['nome'] ."</p>"; ?>
+		<h3>Descrição</h3>
+			<?php  echo "<p>" .$_SESSION['descricao'] ."</p>"; ?>
+		<h3>Ingredientes</h3>
+			<?php  echo "<p>" .$_SESSION['ingredientes'] ."</p>"; ?>
+		<h3>Modo De Preparo</h3>
+			<?php  echo "<p>" .$_SESSION['modpreparo'] ."</p>";   ?>
      
     </form>
 </div>
-<div class="container">
-    <form id="contact" action="processa.php" method="post">
-        <h3>Descrição</h3>
-        <?php
-      
-            echo $_SESSION['descricao'];
-          
-        ?>
-     
-    </form>
-</div>
-<div class="container">
-    <form id="contact" action="processa.php" method="post">
-        <h3>Ingredientes</h3>
-        <?php
-      
-            echo $_SESSION['ingredientes'];
-          
-        ?>
-     
-    </form>
-</div>       <div class="container">
-    <form id="contact" action="processa.php" method="post">
-        <h3>Modo De Preparo</h3>
-        <?php
-      
-            echo $_SESSION['modpreparo'];
-          
-        ?>
-     
-    </form>
-</div>
+
     </body>
 </html>
 
