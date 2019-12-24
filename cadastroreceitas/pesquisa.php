@@ -1,15 +1,39 @@
 <html lang= "pt-br">
     <head>
 <style>
-     body{
-        background-color: #CC6532;
-        width: 100%;
-    }
+  body {
+		margin: 0;
+    padding: 0;
+    max-height: 100%;
+	}
+  #left{
+		width: 50%;
+		height: 90%;
+    left: 0%;
+    top: 10%;
+		position: absolute;
+		background-position: 50% 50%;
+    background-size: cover;
+    background: #f9f9f9;
+    z-index:1; 
+    overflow: auto;
+	}
+	#right{
+    top: 10%;
+		width: 50%;
+		height: 90%;
+		right: 0%;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+    background-image: url(../Imagens/bananalogo.png);
+    background-size: cover;
+	}
      .container {
 		    top: 0%;
 		    position: relative;
         margin: 0 auto;
-        left: 1%;
+        left: 1.5%;
       } 
 
       #contact {
@@ -17,7 +41,7 @@
         padding: 10px;
         position: relative;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-		    width: 42%;
+		    width: 93%;
       }
       
       #contact h3 {
@@ -27,19 +51,25 @@
         margin-bottom: 10px;
 		    color: red;
       }
-	  #button1{
-		  border: 0px;
-		background-color: #A9A9A9;
-		width: 170px;
-	}
+	    #button1{
+		    border: 0px;
+		    background-color: #A9A9A9;
+		    width: 170px;
+     }
 </style>   
+
+
+<div id="right" ></div>
+
+<div id="left"> 
 
 <?php
 
 require "pesquisacon.php";
 if (session_status() !== true){
   session_start();
-    
+
+     
 }
 $pesquisar = $_POST['pesquisar'];
 $sql  = "SELECT idreceitas, nome, descricao, ModPreparo, ingredientes FROM receitas WHERE nome LIKE '%$pesquisar%' LIMIT 10";
@@ -61,5 +91,5 @@ while($rows_receitas = mysqli_fetch_array($resultado)){
     }
 
 ?>
-
+</div>
 </html>

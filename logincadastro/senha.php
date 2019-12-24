@@ -27,10 +27,7 @@ session_start();
 				</div>  
 					<button type="submit" id="enviar"  >ALTERAR SENHA</button>		
 			</form>	
-			<label><?php				
 			
-				echo "MENSAGEM: ".$SESSION['msg'];
-			?>
 
 			</label>
 	</div>
