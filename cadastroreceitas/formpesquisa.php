@@ -1,7 +1,6 @@
 <?php 
-  
-    
-  include "../home/links.php"; include "../home/nav.php";
+
+  include "menu.php";
 
 
 if (session_status() == false) {

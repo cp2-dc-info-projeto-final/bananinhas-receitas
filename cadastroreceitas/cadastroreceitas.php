@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "../home/links.php"; include "../home/nav.php";
+include "menu0.5.php"; 
 ?>
 
 <!DOCTYPE html>

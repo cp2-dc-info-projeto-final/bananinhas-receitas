@@ -1,3 +1,9 @@
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="menu.css" \>
+    </head>
+
+<style>
 #wrapper {
     position: absolute;
     top: 0%;
@@ -15,11 +21,15 @@
 .nav{
 	width: 100%;
 	background: none repeat scroll 0 0 black;
-    padding: 10px 0;
+    padding: 0px 0;
     height: 90px;
 }
 
-
+.imgkj{
+	width:100px;
+	float:left;
+	
+}
 
 .kj{
 	width:70px;
@@ -28,21 +38,19 @@
 
 .lista{
 display:inline-block;
-width: 50%;
+width: 0%;
 height:40px;
 float:left;
 position:relative;
 border-width:2px;
 text-align:center;
 color:white;
-margin-left:15%;
 text-decoration: none;
-margin-right:10%;
+margin-right: 0%;
 }
 
 
 .menu li{
-	float:left;
 	list-style: none;
 	margin: 5px 0 0;
 
@@ -64,7 +72,6 @@ margin-right:10%;
 	 text-decoration: none;
 	 font-size:20px;
 	 color:white;
-	 padding:10px;
 	}
 
 .logincadastro{
@@ -583,3 +590,44 @@ a.tururu:hover{
 	text-align:left;
 }
 
+
+</style>
+
+
+
+<div id="wrapper">
+	<div class="nav-alto">
+       <section class="nav">
+           <div class="container">
+           	   <div class="imgkj">
+                  
+           	   </div>
+           	   <div class="lista">
+           	   	<nav class="menu">
+           	   		<ul>
+                          <li>
+           	   				<a href="..\logincadastro\home\home.html" title="Sobre"> Home </a>
+           	   			</li>
+           	   			<li>
+           	   				<a href="formpesquisa.php" title="Receitas"> Busca(Nome)</a>
+           	   			</li>
+           	   			<li>
+           	   				<a href="buscain.php" title="Ingredientes">Busca(Ingredientes)</a>
+           	   			</li>          	   			
+           	   		</ul>
+           	   	</nav>
+           	   </div>
+           	   <div class="logincadastro">
+
+           	   <a href="..\logincadastro\loginCasdastro.php" class="logincadastro" title="Cadastrologin">    	   	
+           	   Logar ou Cadastrar
+           	   </a>
+			   <a href="..\logincadastro\userorlogin.php" class="logincadastro" title="Cadastrologin">    	   	
+           	   Área do Usuário
+           	   </a>
+           	   </div>
+           </div>
+       </section>
+    </div>
+
+<html>

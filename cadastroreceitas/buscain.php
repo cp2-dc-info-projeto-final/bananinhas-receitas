@@ -1,4 +1,5 @@
 <?php
+include "menu.php";
 if (session_status() == false) {
     session_start();
     echo"bla bla bla";
