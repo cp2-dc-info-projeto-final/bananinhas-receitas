@@ -1,0 +1,2 @@
+1- Ajustar a barra de navegação(corrigir e adicionar)
+2- Erro ao clicar numa receita quando se faz pesquisa por nome/ingrediente
