@@ -11,36 +11,40 @@ include "../Home/links.php";
   </head>
 
 <nav class="navbar navbar-expand-lg bg-primary">
-  <button class="navbar-toggler mb-2 navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
 <!-- Menu dropdown -->
 
        <div class="row">
        <div class="d-lg-none">
-       <a href="#"><img src="../imagens/logo.png"></a>
+       <a href="../logincadastro/home/home.php"><img src="../imagens/logo.png"></a>
        </div>
        
        <div class="d-lg-none">
-       <a class="nav-link d-lg-none" href="#"><i class="fas fa-user d-lg-none"></i></a>
+       <a class="nav-link d-lg-none" href="../logincadastro/usuarioPage.php"><i class="fas fa-user d-lg-none"></i></a>
       </div>
 
        <div class="d-lg-none">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-sign-in-alt d-lg-none"></i></a>
+        <a class="nav-link d-lg-none" href="../logincadastro/logincasdastro.php"><i class="fas fa-sign-in-alt d-lg-none"></i></a>
        </div>
        </div>
+
   <!-- Menu categorias mobile -->
+
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
 
       <ul class="navbar-nav mx-auto">
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por ingrediente</span></a>
+        <a class="nav-link d-lg-none" href="../cadastroreceitas/buscain.php"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por ingrediente</span></a>
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por nome</span></a>
+        <a class="nav-link d-lg-none" href="../cadastroreceitas/formpesquisa.php"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por nome</span></a>
       </li>
 
       <li class="nav-item active">
@@ -61,7 +65,7 @@ include "../Home/links.php";
         
         <div class="col-6">
         <div class="pt-2 d-none d-lg-block">
-        <a href="#"><img src="../imagens/logo.png"></a>
+        <a href="../logincadastro/home/home.php"><img src="../imagens/logo.png"></a>
         </div>
         </div>
       
@@ -77,7 +81,7 @@ include "../Home/links.php";
         </div> 
 
         <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Página de usuário">
-        <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+        <a href="../logincadastro/usuarioPage.php" class="nav-link" href="#"><i class="fas fa-user"></i></a>
         </div>
 
         <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Favoritos">
@@ -85,7 +89,7 @@ include "../Home/links.php";
         </div>
          
         <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Entrar">
-        <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i></a>
+        <a href="../logincadastro/logincasdastro.php" class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i></a>
         </div>
 
         </div>
@@ -106,12 +110,12 @@ include "../Home/links.php";
         </button>
       </div>
       <div class="modal-body">
-        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Nome de receita</a></button>
-        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Ingrediente</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="../cadastroreceitas/formpesquisa.php">Nome de receita</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="../cadastroreceitas/buscain.php">Ingrediente chave</a></button>
       </div>
     </div>
   </div>
-</div>  
+</div> 
 </div>
 
 <div class="container-fluid">
