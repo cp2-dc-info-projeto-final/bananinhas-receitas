@@ -12,10 +12,10 @@ $result_receitas = "INSERT INTO receitas (nome, descricao, ModPreparo, ingredien
 $resultado_receitas = mysqli_query($conn,$result_receitas);
 
 if(mysqli_insert_id($conn)){
-    $_SESSION['msg'] = "<p style= 'color:black;'>receita cadastrada com sucesso";
+    $_SESSION['msg'] = "<p style= 'color:black;'Receita cadastrada com sucesso";
     header("location:Cadastroreceitas.php");
 } else{
-    $_SESSION['msg']="<p style= 'color:black;'>receita não foi cadastrada com sucesso</p>";
+    $_SESSION['msg']="<p style= 'color:black;'>Não foi possível cadastrar a receita</p>";
     header("location:Cadastroreceitas.php");
 }
 ?>

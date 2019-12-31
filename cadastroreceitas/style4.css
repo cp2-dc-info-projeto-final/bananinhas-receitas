@@ -1,0 +1,73 @@
+html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logolateral{
+  background-image:url(../imagens/bananalogo2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.equal-height-columns{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal-column-content{
+  height:1280px;
+}
+
+.partelogo{
+  background-color:#CD6532;
+}
+
+#contact {
+      background: #F9F9F9;
+      padding: 25px;
+      margin: 150px 0;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    
+    #contact h3 {
+      display: block;
+      font-size: 30px;
+      font-weight: 300;
+      margin-bottom: 10px;
+	  color: red;
+    }
+    
+    
+    [type="text"],
+    
+    #contact textarea {
+      width: 100%;
+      border: 0px solid #ccc;
+      background: #FFF;
+      margin: 0 0 5px;
+      padding: 10px;
+    }
+    
+    
+    
+    
+    #contact button[type="submit"] {
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      background: #4CAF50;
+      color: #FFF;
+      margin: 0 0 5px;
+      padding: 10px;
+      font-size: 15px;
+    }

@@ -21,8 +21,8 @@ include "links.php";
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase text-white">Bananinha receitas</h5>
-        <p class="text-white">Links rápidos para algumas páginas importantes</p>
+        <h5 class="text-uppercase text-white">Footer Content</h5>
+        <p class="text-white">Here you can use rows and columns to organize your footer content.</p>
 
       </div>
       <!-- Grid column -->
@@ -37,10 +37,16 @@ include "links.php";
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Home</a>
+            <a href="#!">Link 1</a>
           </li>
           <li>
-            <a href="#!">Criar conta</a>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
           </li>
         </ul>
 
@@ -55,10 +61,16 @@ include "links.php";
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Termo de contrato</a>
+            <a href="#!">Link 1</a>
           </li>
           <li>
-            <a href="#!">Página de receitas</a>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
           </li>
         </ul>
 
@@ -70,6 +82,15 @@ include "links.php";
 
   </div>
   <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white bg-dark">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 </footer>
 <!-- Footer -->

@@ -1,22 +1,16 @@
-<?php 
-
-  include "../Home/links.php";
-
-
-if (session_status() == false) {
-    session_start();
-    echo"bla bla bla";
-}
+<?php
+     
+   include ("links.php");
 ?>
 
-<html lang="pt-BR" dir="ltr">
-     <head>    
-          <meta charset="utf-8">
-          <title> Pesquisa </title>
-          <link rel="stylesheet" href="style1.css" type="text/css">
-     </head>
+<!Doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title> Bananinhas Receitas </title>
+</head>
 
- <nav class="navbar navbar-expand-lg bg-primary">
+<nav class="navbar navbar-expand-lg bg-primary">
 
   <button class="navbar-toggler mb-2 navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -26,7 +20,7 @@ if (session_status() == false) {
 
        <div class="row">
        <div class="d-lg-none">
-       <a href="#"><img src="../imagens/logo.png"></a>
+       <a href="#"><img src="../../imagens/logo.png"></a>
        </div>
        
        <div class="d-lg-none">
@@ -71,7 +65,7 @@ if (session_status() == false) {
         
         <div class="col-6">
         <div class="pt-2 d-none d-lg-block">
-        <a href="#"><img src="../imagens/logo.png"></a>
+        <a href="#"><img src="../../imagens/logo.png"></a>
         </div>
         </div>
       
@@ -104,12 +98,13 @@ if (session_status() == false) {
 </nav>
 
 <body>
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Pesquisar por:</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modalidade de pesquisa</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -121,31 +116,14 @@ if (session_status() == false) {
     </div>
   </div>
 </div>	
+
+
+<div class="container">
+<div class="col-12 bg-primary">
 </div>
 
 
-  <div class="container-fluid">
-  <div class="row equal-height-columns">
-   <div class="partelogo d-none d-lg-block col-xl-6 col-lg-6 pt-5">
-   	<div class="equal-column-content">
-   	<div class="logolateral w-100" style="height:950px; margin-left:0px;">
-   	</div>
-   </div>
-  </div>
+</div>
 
-
-  <div class="ladopesquisa col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-white text-center">
-  	<div class="tm-pesq">
-  <h1 class="text-primary mb-5"> Pesquisa por nome </h1>
-  <form method="POST" action="pesquisa.php" >
-  <div class="buscar-caixa mr-0">
-   <input type="text" name="pesquisar" class="buscar-txt form-control w-100" placeholder="Buscar..."/>
-   <button type="submit" class="btn btn-primary mt-2 mb-2"><a class="buscar-btn">Buscar <i class="fas fa-search"></i></a></button>
-  </div>
-  </form>
-  </div>
-  </div>
-  </div>
-  </div>
- </body>
+</body>
 </html>

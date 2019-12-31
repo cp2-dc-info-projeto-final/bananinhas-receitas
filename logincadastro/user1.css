@@ -1,0 +1,12 @@
+/* Aqui começa o css da página do usuário*/
+	body{
+		margin: 0;
+        padding: 0;
+	}
+
+    .logo{
+	background-color:#CD6532;
+	height:35%;
+    }
+
+	
