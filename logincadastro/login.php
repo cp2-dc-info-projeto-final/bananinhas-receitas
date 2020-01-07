@@ -1,5 +1,5 @@
 <?php
-    require "conexao.php";
+    require "../cadastroreceitas/conexao.php";
     function login($email, $senha) {
         $conn = getConnection(); 
     
