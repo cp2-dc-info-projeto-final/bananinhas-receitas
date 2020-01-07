@@ -118,12 +118,7 @@ include "../Home/links.php";
 </div>  
 </div>
 
-<?php
-    if(isset($_SESSION['msg'])){
-        echo $_SESSION['msg'];
-        unset($_SESSION['msg']);
-    }
-?>
+
 
 <div class="container-fluid">
    <div class="row equal-height-columns">
@@ -136,15 +131,33 @@ include "../Home/links.php";
 
 
 <div class="ladocadastrar col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-white text-center text-primary">
-    <form id="contact" action="processa.php" method="post">
+<method="POST" action="upload.php" enctype="multipart/form-data">
+    <form id="contact" action="processa.php" method="post" >
         <h3>Cadastro de Receitas</h3>
 
         <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome da receita" required="required">
         <input class="form-control" type="text" name="descricao" id="descricao" placeholder="Descrição da receita" required="required">
         <input class="form-control" type="text" name="ingredientes" id="Ingredientes" placeholder="Ingredientes da receita" required="required">
-        <textarea class="form-control" name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required" rows="5" cols="33"></textarea>       
-        <button class="btn btn-primary" type="submit" id="cadastrar">Cadastrar</button>
+        <textarea class="form-control" name="ModPreparo" id="ModPreparo" placeholder="Modo de Preparo" required="required" rows="5" cols="33"></textarea>  
+      
+
+
+ 
+  <button class="btn btn-primary" type="submit" id="cadastrar">Cadastrar</button> 
+
+    
+    
+    
+
+
+  
+    
+        <br/>
+       
     </form>
+
+    
+
 </div>
 </div>
 </div>
