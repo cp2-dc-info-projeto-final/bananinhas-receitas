@@ -22,7 +22,7 @@ include "../Home/links.php";
 
        <div class="row">
        <div class="d-lg-none">
-       <a href="../Home/index.php"><img src="../imagens/logo.png"></a>
+       <a href="home/home.php"><img src="../imagens/logo.png"></a>
        </div>
        
        <div class="d-lg-none">
@@ -60,7 +60,7 @@ include "../Home/links.php";
         
         <div class="col-6">
         <div class="pt-2 d-none d-lg-block">
-        <a href="../Home"><img src="../imagens/logo.png"></a>
+        <a href="home/home.php"><img src="../imagens/logo.png"></a>
         </div>
         </div>
       

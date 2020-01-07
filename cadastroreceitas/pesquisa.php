@@ -123,8 +123,6 @@ include "../Home/links.php";
   <div class="ladoresult col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-white">
 
 <?php
-
-require "pesquisacon.php";
 require "conexao.php";
 $conn = getConnection();
 $pesquisar = $_POST['pesquisar'];
