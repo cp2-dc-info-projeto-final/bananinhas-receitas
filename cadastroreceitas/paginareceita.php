@@ -101,9 +101,8 @@ include "../home/links.php";
         </div>
 </nav>
 
-
-    <body>   
-
+<body>
+<!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -114,12 +113,13 @@ include "../home/links.php";
         </button>
       </div>
       <div class="modal-body">
-        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Nome de receita</a></button>
-        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="#">Ingrediente</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="../cadastroreceitas/formpesquisa.php">Nome de receita</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a class="nav-link" href="../cadastroreceitas/buscain.php">Ingrediente chave</a></button>
       </div>
     </div>
   </div>
-</div>  
+</div>
+</div>
 
 <div class="container-fluid">
   <div class="row equal-height-columns">
