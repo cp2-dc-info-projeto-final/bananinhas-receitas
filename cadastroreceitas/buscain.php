@@ -28,7 +28,7 @@ if (session_status() == false) {
        </div>
        
        <div class="d-lg-none">
-       <a class="nav-link d-lg-none" href="../logincadastro/usuarioPage.php"><i class="fas fa-user d-lg-none"></i></a>
+       <a class="nav-link d-lg-none" href="../logincadastro/userorlogin.php"><i class="fas fa-user d-lg-none"></i></a>
       </div>
 
        <div class="d-lg-none">
@@ -80,16 +80,8 @@ if (session_status() == false) {
         </button>
         </div>
 
-        <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Categorias">
-        <a class="nav-link" href="#"><i class="fas fa-scroll"></i></a>
-        </div> 
-
         <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Página de usuário">
-        <a href="../logincadastro/usuarioPage.php" class="nav-link" href="#"><i class="fas fa-user"></i></a>
-        </div>
-
-        <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Favoritos">
-        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+        <a href="../logincadastro/userorlogin.php" class="nav-link" href="#"><i class="fas fa-user"></i></a>
         </div>
          
         <div class="pt-2 d-none d-lg-block" data-toggle="tooltip" title="Entrar">
