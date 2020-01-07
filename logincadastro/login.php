@@ -1,14 +1,14 @@
 <?php
-
+    require "conexao.php";
     function login($email, $senha) {
-        $connection = mysqli_connect("localhost", "root", "", "bananasql");
+        $conn = getConnection(); 
     
-        if($connection === false){
+        if($conn === false){
             die("Deu ruim mano!" . mysqli_connect_error());
         }
 
         $sql = "SELECT senha,nome,id FROM cliente WHERE email='$email'";
-        $result = mysqli_query($connection, $sql);
+        $result = mysqli_query($conn, $sql);
         $erro = "";
         
         if (mysqli_num_rows($result) > 0) {
@@ -24,7 +24,7 @@
         } else {
             return false;
         }        
-        mysqli_close($connection);
+        mysqli_close($conn);
     }
     
 ?>

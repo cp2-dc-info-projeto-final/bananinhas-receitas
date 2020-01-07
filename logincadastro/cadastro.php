@@ -1,8 +1,9 @@
 <?php
-
+    require "conexao.php";
+    
     function cadastro($nome,$email,$tel,$datanasc,$hash,$sexo) {
-        $conn = mysqli_connect("localhost", "root", "", "bananasql");
-        // Check connection
+        $conn = getConnection();
+        
         if($conn === false){
             die("Deu ruim mano!" . mysqli_connect_error());
         }

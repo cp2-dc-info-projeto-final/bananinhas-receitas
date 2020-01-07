@@ -133,10 +133,8 @@ include "../Home/links.php";
 <?php
 
 require "pesquisacon.php";
-if (session_status() !== true)
-{
-  session_start();
-}
+require "conexao.php";
+$conn = getConnection();
 $pesquisar = $_POST['pesquisar'];
 $sql  = "SELECT idreceitas, nome, descricao, ModPreparo, ingredientes FROM receitas WHERE nome LIKE '%$pesquisar%' LIMIT 10";
 $resultado = mysqli_query($conn, $sql);
@@ -146,14 +144,10 @@ while($rows_receitas = mysqli_fetch_array($resultado)){
 	  echo '<div class="container">'.'<form id="contact">';
       echo "<h3>" ."Receita: " ."</h3>"	."<p>" .$rows_receitas['nome'] ."</p>";
       echo "<h3>" ."Descrição: " ."</h3>" ."<p>".$rows_receitas['descricao'] ."</p>";
-      echo "<button id='button1'><a href=paginareceita.php action=\"addreceitas(" . $rows_receitas['idreceitas'] . ",'" . $rows_receitas['nome'] . "')\">Escolher receita</a></button><br>";
+      echo "<button id='button1'><a href=\"paginareceita.php?id=" . $rows_receitas['idreceitas'] . "\">Escolher receita</a></button><br>";
 	echo '</form>'.'</div>';  
 	  
-	  $_SESSION['id'] = $rows_receitas['idreceitas'];
-      $_SESSION['nome'] = $rows_receitas['nome'];
-      $_SESSION['descricao'] = $rows_receitas['descricao'];
-      $_SESSION['modpreparo'] = $rows_receitas['ModPreparo'];
-      $_SESSION['ingredientes'] = $rows_receitas['ingredientes'];
+
     }
 
 ?>

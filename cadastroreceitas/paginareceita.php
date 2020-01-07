@@ -1,8 +1,4 @@
 <?php
-if (session_status() !== PHP_SESSION_ACTIVE) {
-    session_start();
-  }
-
 include "../home/links.php";
 
 ?>
@@ -131,17 +127,25 @@ include "../home/links.php";
   </div>
 
  <div class="ladopesquisa col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-white"> 
-       
+<?php
+  require "conexao.php";
+  $conn = getConnection();
+  $id = $_GET['id'];
+  $sql  = "SELECT nome, descricao, ModPreparo, ingredientes FROM receitas WHERE idreceitas = $id";
+  $query = mysqli_query($conn, $sql);
+  $resultado = mysqli_fetch_array($query);
+
+?>
 <div class="container">
     <form id="contact" action="processa.php" method="post">
         <h3>Nome Da Receita</h3>
-			<?php  echo "<p>" .$_SESSION['nome'] ."</p>"; ?>
+			<?php  echo "<p>" .$resultado['nome'] ."</p>"; ?>
 		<h3>Descrição</h3>
-			<?php  echo "<p>" .$_SESSION['descricao'] ."</p>"; ?>
+			<?php  echo "<p>" .$resultado['descricao'] ."</p>"; ?>
 		<h3>Ingredientes</h3>
-			<?php  echo "<p>" .$_SESSION['ingredientes'] ."</p>"; ?>
+			<?php  echo "<p>" .$resultado['ingredientes'] ."</p>"; ?>
 		<h3>Modo De Preparo</h3>
-			<?php  echo "<p>" .$_SESSION['modpreparo'] ."</p>";   ?>
+			<?php  echo "<p>" .$resultado['ModPreparo'] ."</p>";   ?>
      
     </form>
 </div>
