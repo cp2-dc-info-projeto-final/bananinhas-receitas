@@ -3,7 +3,12 @@
             padding: 0;
         }
         
- 
+        .colunageral{
+            margin-top:40px;
+            height:1000px;
+            width:1000px;
+
+        }
         
         .backright {
             position: absolute;

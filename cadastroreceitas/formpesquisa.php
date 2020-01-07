@@ -52,14 +52,6 @@ if (session_status() == false) {
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="../cadastroreceitas/formpesquisa.php"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por nome</span></a>
       </li>
-
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-scroll fa-2x d-lg-none"></i> <span> Catálogo</span></a>
-      </li>
-
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-heart fa-2x d-lg-none"></i> <span>Favoritos</span></a>
-      </li>
         </ul>
 
        
