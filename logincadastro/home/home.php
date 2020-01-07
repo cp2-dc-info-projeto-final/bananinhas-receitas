@@ -8,6 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title> Bananinhas Receitas </title>
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <nav class="navbar navbar-expand-lg bg-primary">
@@ -109,11 +110,234 @@
 </div>
 
 
-<div class="container">
-<div class="col-12 bg-primary">
+<div class="submenu">
+<div class="text-light pt-3">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-4 pb-2">
+                       <div class="media">
+                            <i class="fas fa-play-circle mr-3 display-4" ></i>
+                            <div class="media-body text-light">
+                              <h5 class="mt-0 ">Pesquisa rápida</h5>
+                              Encontre inúmeras receitas através da pesquisa por ingrediente ou nome.
+                            </div>
+                          </div>
+                   </div>
+
+                   <div class="col-md-4 pb-3">
+                        <div class="media">
+                             <i class="fas fa-ribbon mr-3 display-4" ></i>
+                             <div class="media-body text-light">
+                               <h5 class="mt-0 ">Faça parte da equipe</h5>
+                               Cadastre-se em nosso site e tenha acesso a funções exclusivas do site.
+                             </div>
+                           </div>
+                    </div>
+                   
+                   <div class="col-md-4 pb-3">
+                        <div class="media">
+                             <i class="fas fa-spinner mr-3 display-4" ></i>
+                             <div class="media-body text-light">
+                               <h5 class="mt-0">Interaja com o site</h5>
+                               Pesquise e cadastre as receitas que você conhece.
+                             </div>
+                           </div>
+                    </div>              
+               </div>
+           </div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+<div class="cor-aba">
+<div class="container pt-5">
+   <div class="row">
+      <div class="col-sm">
+         <h5 class="border-bottom pb-2 border-white text-white"><i class="fas fa-star"></i> Receitas em destaque</h5>
+      </div>
+   </div>
 </div>
 
 
+<div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 rounded">
+                <div class="hover_area_1 hover_area">
+                    <div class="hover_img_1">
+                        <img src="bolobanana.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Bolo de banana</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>                      
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="hover_area_1 hover_area">
+                    <div class="hover_img_1">
+                        <img src="bananasorvete.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Sorvete com banana</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>                 
+                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="hover_area_1">
+                    <div class="hover_img_1">
+                        <img src="torresmo.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Torresmo</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>                   
+                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 rounded">
+                <div class="hover_area_1 hover_area">
+                    <div class="hover_img_1">
+                        <img src="arrozcenoura.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Arroz com cenoura</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="hover_area_1 hover_area">
+                    <div class="hover_img_1">
+                        <img src="coxinha.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Coxinha</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>
+                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="hover_area_1">
+                    <div class="hover_img_1">
+                        <img src="pastel.jpg" class="img-fluid" alt="">
+                        <div class="hover_overlay_1"></div>
+                        <div class="hover_content_1">
+                            <h4>Pastel</h4>
+                            <p class="text-white"> Por: Bananinhas receitas </p>
+                            <ul>                            
+                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="time">
+          <div class="container">
+            <h1 class="text-white"> Nossa equipe </h1>
+
+          <div class="row">
+            <div class="col-md-3 profile text-center">
+              <div class="img-box">
+                <img src="thaynan4.jpg" class="img-responsive">
+                <ul>
+                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                </ul>
+              </div>
+                 <h2 class="text-white"> Thaynan Leocádio </h2>
+                 <h3 class="text-white"> HTML, CSS, PHP e BD </h3>
+                 <p class="text-white"> Criou o modelo base para as páginas e consertou alguns erros que apareceram no decorrer do desenvolvimento em php e fez insert de receitas </p>
+            </div>
+
+
+               <div class="col-md-3 profile text-center">
+              <div class="img-box">
+                <img src="felipe4.jpg" class="img-responsive">
+                <ul>
+                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                </ul>
+              </div>
+                 <h2 class="text-white"> Felipe Siqueira </h2>
+                 <h3 class="text-white"> PHP e BD </h3>
+                 <p class="text-white"> Com PHP, criou as diversas funções existentes no site, como o cadastro de usuários, a pesquisa de receitas e fez insert de receitas </p>
+            </div>
+
+
+               <div class="col-md-3 profile text-center">
+              <div class="img-box">
+                <img src="uilson4.jpg" class="img-responsive">
+                <ul>
+                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                </ul>
+              </div>
+                 <h2 class="text-white"> Uilson Gabriel </h2>
+                 <h3 class="text-white"> PHP, BD, HTML e CSS </h3>
+                 <p class="text-white"> Com PHP, criou as principais funcionalidades da área do usuário, contribuiu para o modelo base das páginas e fez insert de receitas </p>
+            </div>
+
+
+             <div class="col-md-3 profile text-center">
+              <div class="img-box">
+                <img src="uilson2.jpg" class="img-responsive">
+                <ul>
+                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                </ul>
+              </div>
+                 <h2 class="text-white"> Matheus Pereira </h2>
+                 <h3 class="text-white"> HTML, CSS e BD </h3>
+                 <p class="text-white"> Tornou o site responsivo e usual. Contribuiu para a criação do design e fez insert de receitas </p>
+            </div>
+          </div>
+          </div>
+        </section>
 </div>
 
 </body>
