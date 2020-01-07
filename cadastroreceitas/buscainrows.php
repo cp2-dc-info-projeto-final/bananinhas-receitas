@@ -145,7 +145,7 @@ while($rows_receitas = mysqli_fetch_array($resultado)){
 	echo '<div class="container">'.'<form id="contact">';
       echo "<h3>" ."Receita: " ."</h3><p>" .$rows_receitas['nome'] ."</p>";
       echo "<h3>" ."Descrição: " ."</h3><p>".$rows_receitas['descricao'] ."</p>";
-      echo "<button id='button1'><a href='paginareceita.php' >Escolher receita</a></button>";
+      echo "<button id='button1'><a href='paginareceita.php' >Escolher receita</a>";
 	echo '</form></div>';  
 	  
       $_SESSION['id'] = $rows_receitas['idreceitas'];

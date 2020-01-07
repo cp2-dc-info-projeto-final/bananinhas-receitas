@@ -133,10 +133,9 @@ include "../Home/links.php";
 <?php
 
 require "pesquisacon.php";
-if (session_status() !== true){
+if (session_status() !== true)
+{
   session_start();
-
-     
 }
 $pesquisar = $_POST['pesquisar'];
 $sql  = "SELECT idreceitas, nome, descricao, ModPreparo, ingredientes FROM receitas WHERE nome LIKE '%$pesquisar%' LIMIT 10";
