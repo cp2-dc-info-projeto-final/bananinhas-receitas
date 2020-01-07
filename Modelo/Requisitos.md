@@ -29,13 +29,14 @@
 ### RF01
 O usuário deverá fazer cadastro, com nome de usuário, e-mail e senha;<br>
 ### RF02
-O usuário deverá fazer login após o cadastramento;<br>
+O usuário estará logado após o cadastramento;<br>
 ### RF03
-O usuário deverá salvar suas receitas favoritas e os ingredientes que possui em casa;<br>
+O site enviará ao usuário sugestão de receitas após o mesmo inserir o nome da receita;<br>
 ### RF04
-O usuário deverá enviar sua sugestão de receita;<br>
+O usuário cadastrado poderá enviar suas receitas;<br>
 ### RF05
 O site enviará ao usuário sugestão de receitas após o mesmo inserir os ingredientes;<br>
+
 
 
 ##
@@ -43,15 +44,9 @@ O site enviará ao usuário sugestão de receitas após o mesmo inserir os ingre
 ### Requisitos Não Funcionais
 
 ### RNF01
-O usuário vai inserir suas informações que será armazenada em um banco de dados, que somente o administrador terá acesso.<br>
+Ter um Design acessível e usual.<br>
 ### RNF02
-Antes do usuário fazer login os seus dados estarão armazenados em um banco de dados, caso ele tenha feito o cadastramento.<br>
+Todos os links do site terão a opção de ir para home(página inicial).<br>
 ### RNF03
-Após a inserção de ingredientes o site irá sugerir as receitas que estão armazenadas no banco de dados.<br>
-### RNF04
-As receitas que serão sugeridas estarão armazenadas em um banco de dados.<br>
-### RNF05
-Os filtros estarão dispostas no menu do site para o usuário clicar e ter seus resultados filtrados.
+O site poderá utilizado em versão móvel.<br>
 
- ### RF06
-O site terá alguns filtros que irão listar receitas de acordo com a necessidade do cliente.<br>
