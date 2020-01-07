@@ -18,7 +18,8 @@
 - [RNF01](#RNF01) <br>
 - [RNF02](#RNF02) <br>
 - [RNF03](#RNF03) <br>
-
+- [RNF04](#RNF04) <br>
+- [RNF05](#RNF05) <br>
 
 ##
 
@@ -42,9 +43,14 @@ O site enviará ao usuário sugestão de receitas após o mesmo inserir os ingre
 ### Requisitos Não Funcionais
 
 ### RNF01
-Ter um Design acessível e usual.<br>
+O site deverá ser feito em html, css, php e bootstrap 4.<br>
 ### RNF02
-Todos os links do site terão a opção de ir para home(página inicial).<br>
+As informações dos usuários e das receitas cadastradas estarão armazenadas no banco de dados MySQL.
 ### RNF03
-O site poderá utilizado em versão móvel.<br>
+O site poderá ser utilizado em versão móvel.<br>
+### RNF04
+Terá um design acessível e usual.<br>
+### RNF05
+Todos os links do site terão a opção de ir para home(página inicial).<br>
+
 
