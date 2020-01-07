@@ -178,7 +178,7 @@
                             <h4>Bolo de banana</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>                      
-                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                                <li><a href="../../cadastroreceitas/paginareceita.php?id=1"><i class="fas fa-search"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -194,7 +194,7 @@
                             <h4>Sorvete com banana</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>                 
-                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                              <li>><a href="../../cadastroreceitas/paginareceita.php?id=5"><i class="fas fa-search"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                             <h4>Torresmo</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>                   
-                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                             <li><a href="../../cadastroreceitas/paginareceita.php?id=7"><i class="fas fa-search"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                             <h4>Arroz com cenoura</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>
-                                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                                 <li><a href="../../cadastroreceitas/paginareceita.php?id=16"><i class="fas fa-search"></i></a></li>
 
                             </ul>
                         </div>
@@ -247,7 +247,7 @@
                             <h4>Coxinha</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>
-                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li><a href="../../cadastroreceitas/paginareceita.php?id=6"><i class="fas fa-search"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -263,7 +263,7 @@
                             <h4>Pastel</h4>
                             <p class="text-white"> Por: Bananinhas receitas </p>
                             <ul>                            
-                              <li><a href="#"><i class="fas fa-search"></i></a></li>
+                             <li><a href="../../cadastroreceitas/paginareceita.php?id=9"><i class="fas fa-search"></i></a></li>
                             </ul>
                         </div>
                     </div>
