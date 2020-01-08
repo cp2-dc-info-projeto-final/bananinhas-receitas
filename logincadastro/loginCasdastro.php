@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
 </head>
 
 
@@ -117,7 +117,6 @@
     <div id="slidebox">
         <div class="toplayer">
             <div class="left">
-                <div class="content">
 
         <?php
         if(isset($_SESSION['msg'])){
@@ -125,16 +124,17 @@
           unset($_SESSION['msg']);
         }
         ?>
-			
-                    <h2><b>REGISTRAR<b></h2>
+      
+      <div class="content2 row justify-content-center">
+                    <h2 class="text-primary"><b>REGISTRAR<b></h2>
           <form action="cadastroControle.php" method="post"> 
-            <div class="form-group">
-              <input type="text" name="nome" id="nome" placeholder="Nome de usuário" required="required">
-              <input type="email" name="email" id="email" placeholder="Email" required="required">
-              <input type="text" name="tel" id="tel" placeholder="Telefone" required="required">
-              <input type="Date" name="dataNasc" id="datanasc" placeholder="Data de nascimento" required="required">
-              <input type="password" name="senha" id="senha" placeholder="Senha" required="required">
-              <input type="password" name="senha2" id="senha2" placeholder="Confirmar senha" required="required">
+            <div class="form-group text-center">
+              <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome de usuário" required="required">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="required">
+              <input type="text" class="form-control" name="tel" id="tel" placeholder="Telefone" required="required">
+              <input type="Date" class="form-control" name="dataNasc" id="datanasc" placeholder="Data de nascimento" required="required">
+              <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha" required="required">
+              <input type="password" class="form-control" name="senha2" id="senha2" placeholder="Confirmar senha" required="required">
               </div>
               <div class="radion">
                 <input type="radio" name="sexo"  id="masculino" value="masculino" required>
@@ -147,15 +147,14 @@
                 <label for="outro">Outro</label>
               </div>
               
-              <button type="submit" id="enviar">Enviar</button>
+              <button class="btn btn-primary" type="submit" id="enviar">Enviar</button>
               <!--<button>Enviar</button>-->
-           </form>
-          <button id="goleft" class="off">Já tenho</button>
-          </div>
+           </form class="text-center">
+          <button id="goleft" class="btn btn-outline-primary mt-1">Já tenho</button>
         </div>
+    </div>
       
       <div class="right">
-        <div class="content">
             <?php
         if(array_key_exists('erro', $_SESSION) == true){
           $erro = $_SESSION["erro"];
@@ -163,25 +162,26 @@
 
           } 
             ?> 
-		
-          <h2><b>LOGIN<b></h2>
-          <form action="loginControle.php" method="post"> 
-        <div class="form-group">
-          <input name="email" type="text" id="email" placeholder="Email">
-          <input name="senha" type="password" id="senha" placeholder="Senha">
+    
+          <div class="content row justify-content-center">
+          <h2 class="text-primary"><b>LOGIN<b></h2>
+          <form class="text-center" action="loginControle.php" method="post"> 
+        <div class="form-group mt-0">
+          <input name="email" class="form-control" type="text" id="email" placeholder="Email">
+          <input name="senha" class="form-control" type="password" id="senha" placeholder="Senha">
          </div>         
-          <button type="submit" id="logar">Logar</button> 
+          <button class="btn btn-primary" type="submit" id="logar">Logar</button> 
               <?php
               session_unset();
               ?>
            </form>  
-           <form action="login.php" method="post" onsubmit="return false;"> 
-           <button id="goright" class="off">Criar</button>
+           <form class="text-center" action="login.php" method="post" onsubmit="return false;"> 
+           <button class="btn btn-outline-primary mt-1" id="goright">Criar</button>
            </form>  
-          </div>
-        </div>    
+          </div>  
       </div>
     </div>
+</div>
 
 
 <script>
