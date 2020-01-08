@@ -19,7 +19,7 @@ Sistema de busca de receitas, Projeto Final do Curso Técnico em Desenvolvimento
 - [CDU](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Casosdeuso.md)
 
 ### [Casos de Uso] 
-![CDU](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/Modelo/ImagensModelo/DIagrama de banco de dados.png )
+![CDU](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/Modelo/ImagensModelo/DUC.png)
 
 ### [Modelagem] 
-![Model](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/Modelo/ImagensModelo/DIagrama de banco de dados.png)
+![Model](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/Modelo/ImagensModelo/DBD.png)
