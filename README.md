@@ -1,6 +1,6 @@
-# Bananinhas receitas
-
-## Alunos:
+# Bananinhas Receitas
+Sistema de busca de receitas, Projeto Final do Curso Técnico em Desenvolvimento de Sistemas do Colégio Pedro II – Campus Duque de Caxias – 2019
+## Desenvolvedores:
 - Matheus Pereira da Silva<br>
 - Felipe Siqueira<br>
 - Thaynan Vilela<br>
