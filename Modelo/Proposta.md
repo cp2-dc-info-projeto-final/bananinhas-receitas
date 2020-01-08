@@ -12,7 +12,7 @@
 
 O site teria receitas que podem ser pesquisadas através do nome da receita ou pelos ingredientes que ela usa, o site teria uma divisão entre ingredientes necessários e não necessários para cada receita, como por exemplo em uma receita de lasanha de carne o dente de alho não é necessário na receita, mas a carne em uma lasanha de carne é necessário e através disso você poderia pesquisar no site as alternativas de receita apenas modificando os ingredientes não necessários.
 
-Dentro do site vai ter uma aba no menu principal em que o usuário do site poderá enviar uma sugestão de receita, entretanto essa sugestão só poderá ser enviada se a pessoa tiver uma conta criada no banco de dados do site. A necessidade da criação de uma conta dentro do site para enviar uma receita será para dificultar a ação de pessoas que queiram usar algum tipo de programa para  fazer spam.
+Dentro do site vai ter uma aba na área do úsuario em que o usuário logado no site poderá enviar uma receita, entretanto essa receita só poderá ser enviada se a pessoa tiver uma conta criada no banco de dados do site. A necessidade da criação de uma conta dentro do site para enviar uma receita será para dificultar a ação de pessoas que queiram usar algum tipo de programa para  fazer spam.
 
 
 
