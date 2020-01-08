@@ -83,7 +83,7 @@ include "../Home/links.php";
         </div>
 </nav>
 
-<body>
+<body class="bg-primary">
 
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -119,17 +119,19 @@ include "../Home/links.php";
 			 
 			echo "Seja bem vindo, ".$result['nome']. "!"; 
 		?>
-		<button type="button" class="btn btn-dark"><a href="loginCasdastro.php"><i class="fas fa-sign-out-alt"></i> Encerrar sessão</a></button>
+		<button type="button" class="btn btn-dark ml-5"><a href="loginCasdastro.php"><i class="fas fa-sign-out-alt"></i> Encerrar sessão</a></button>
 	    </div>
 
 
-       <div class="container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-primary text-white text-center pt-2">
+       <div class="container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-primary text-white text-center pt-5">
 		<ul class="list-inline">
 			<li class="list-inline-item pr-2"><a href="email.php"><i class="fas fa-envelope"></i> Alterar Email</a></li>
 			<li class="list-inline-item pr-2"><a href="senha.php"><i class="fas fa-key"></i> Alterar Senha</a></li>
 			<li class="list-inline-item pr-2"><a href="..\cadastroreceitas\cadastroreceitas.php"><i class="fas fa-cash-register"></i> Cadastrar Receitas</a></li>
 		</ul>
 	   </div>
+
+     <div class=""
 	    
 </body>
 </html>
