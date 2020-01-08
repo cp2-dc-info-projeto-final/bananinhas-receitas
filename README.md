@@ -8,13 +8,13 @@ Sistema de busca de receitas, Projeto Final do Curso Técnico em Desenvolvimento
 
 ## Navegação
 
-### [Proposta](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Proposta.md)
+- [Proposta](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Proposta.md)
 
-### [Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Entrevista.md)
+- [Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Entrevista.md)
 
-### [Audio da Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/tree/master/Modelo/AudioEntrevista)
+- [Audio da Entrevista](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/tree/master/Modelo/AudioEntrevista)
 
-### [Requisitos](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Requisitos.md) 
+- [Requisitos](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Requisitos.md) 
 
 ### [CDU](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Casosdeuso.md)
 
