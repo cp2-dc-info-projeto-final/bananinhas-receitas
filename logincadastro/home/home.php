@@ -273,12 +273,11 @@
               <div class="img-box">
                 <img src="thaynan5.jpg" class="img-responsive">
                 <ul>
-                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                  <a href="https://www.facebook.com/thaynan.l.vilela"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="https://github.com/ThaynanLeocadioVilela"><li><i class="fab fa-github"></i></li></a>
                 </ul>
               </div>
-                 <h2 class="text-white"> Thaynan Leocádio </h2>
+                 <h2 class="text-white"> Thaynan Vilela </h2>
                  <h3 class="text-white"> HTML, CSS, PHP e BD </h3>
                  <p class="text-white"> Criou o modelo base para as páginas, consertou alguns erros que apareceram no decorrer do desenvolvimento em php e fez insert de receitas </p>
             </div>
@@ -288,9 +287,8 @@
               <div class="img-box">
                 <img src="felipe5.jpg" class="img-responsive">
                 <ul>
-                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                  <a href="https://www.facebook.com/felipe.siqueira.90"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="https://github.com/Felipe-S-Lysgd"><li><i class="fab fa-github"></i></i></li></a>
                 </ul>
               </div>
                  <h2 class="text-white"> Felipe Siqueira </h2>
@@ -303,9 +301,8 @@
               <div class="img-box">
                 <img src="uilson5.jpg" class="img-responsive">
                 <ul>
-                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                  <a href="https://www.facebook.com/uilsongabriel.castrodeoliveira"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="https://github.com/UilsonGabriel"><li><i class="fab fa-github"></i></li></a>
                 </ul>
               </div>
                  <h2 class="text-white"> Uilson Gabriel </h2>
@@ -318,9 +315,8 @@
               <div class="img-box">
                 <img src="matheus1.jpg" class="img-responsive">
                 <ul>
-                  <a href="#"><li><i class="fab fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+                  <a href="https://www.facebook.com/tableti.pereira"><li><i class="fab fa-facebook"></i></li></a>
+                  <a href="https://github.com/MatheusPereiraDaSilva"><li><i class="fab fa-github"></i></li></a>
                 </ul>
               </div>
                  <h2 class="text-white"> Matheus Pereira </h2>
