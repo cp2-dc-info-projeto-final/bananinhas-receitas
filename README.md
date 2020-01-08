@@ -22,4 +22,4 @@ Sistema de busca de receitas, Projeto Final do Curso Técnico em Desenvolvimento
 ![CDU](Modelo/ImagensModelo/DUC.png)
 
 ### [Modelagem] 
-![Model](Modelo/ImagensModelo/DBD1.png)
+![Model](Modelo/ImagensModelo/DDC1.png)
