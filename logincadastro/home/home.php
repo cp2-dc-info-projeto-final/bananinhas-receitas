@@ -47,14 +47,6 @@
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="../../cadastroreceitas/formpesquisa.php"><i class="fas fa-search fa-2x d-lg-none"></i> <span>Pesquisa por nome</span></a>
       </li>
-
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-scroll fa-2x d-lg-none"></i> <span> Catálogo</span></a>
-      </li>
-
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-heart fa-2x d-lg-none"></i> <span>Favoritos</span></a>
-      </li>
         </ul>
 
        
@@ -279,7 +271,7 @@
           <div class="row">
             <div class="col-md-3 profile text-center">
               <div class="img-box">
-                <img src="thaynan4.jpg" class="img-responsive">
+                <img src="thaynan5.jpg" class="img-responsive">
                 <ul>
                   <a href="#"><li><i class="fab fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fab fa-twitter"></i></li></a>
@@ -288,13 +280,13 @@
               </div>
                  <h2 class="text-white"> Thaynan Leocádio </h2>
                  <h3 class="text-white"> HTML, CSS, PHP e BD </h3>
-                 <p class="text-white"> Criou o modelo base para as páginas e consertou alguns erros que apareceram no decorrer do desenvolvimento em php e fez insert de receitas </p>
+                 <p class="text-white"> Criou o modelo base para as páginas, consertou alguns erros que apareceram no decorrer do desenvolvimento em php e fez insert de receitas </p>
             </div>
 
 
                <div class="col-md-3 profile text-center">
               <div class="img-box">
-                <img src="felipe4.jpg" class="img-responsive">
+                <img src="felipe5.jpg" class="img-responsive">
                 <ul>
                   <a href="#"><li><i class="fab fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fab fa-twitter"></i></li></a>
@@ -309,7 +301,7 @@
 
                <div class="col-md-3 profile text-center">
               <div class="img-box">
-                <img src="uilson4.jpg" class="img-responsive">
+                <img src="uilson5.jpg" class="img-responsive">
                 <ul>
                   <a href="#"><li><i class="fab fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fab fa-twitter"></i></li></a>
@@ -324,7 +316,7 @@
 
              <div class="col-md-3 profile text-center">
               <div class="img-box">
-                <img src="uilson2.jpg" class="img-responsive">
+                <img src="matheus1.jpg" class="img-responsive">
                 <ul>
                   <a href="#"><li><i class="fab fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fab fa-twitter"></i></li></a>

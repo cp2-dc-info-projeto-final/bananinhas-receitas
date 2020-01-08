@@ -111,20 +111,14 @@ include "../Home/links.php";
   </div>
 
 	<div class="ladoalterar col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-white text-center text-primary">
-			<form  action="altSenha.php" method="POST"> 	
+			<form  action="altSenha.php" method="POST"> 
+       <h2> Alterar senha </h2>	
 				<div class="form-group">
-					<p>Email Atual:</p>
 					<input class="form-control" name="email" type="email" id="email" placeholder="Email atual" required>
-			</div>
-				<div class="form-group">
-					<p>Senha Atual:</p>
 					<input class="form-control" name="senhaAtual" type="password" id="senha1" placeholder="Senha Atual" required>
-				</div>
-				<div class="form-group">
-					<p>Senha Nova:</p>
-					<input class="form-control" name="senhaNova" type="password" id="senha2" placeholder="Senha Nova" required>
-				</div>  
+					<input class="form-control" name="senhaNova" type="password" id="senha2" placeholder="Senha Nova" required> 
 					<button class="btn btn-primary" type="submit" id="enviar">Alterar senha</button>
+        </div>
 			</form>	
 	</div>
     </div>

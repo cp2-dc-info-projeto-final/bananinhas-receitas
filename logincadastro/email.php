@@ -126,18 +126,12 @@
 	<!-- Fazer o sql connection da trocar de email-->
 	<form  action="altEmail.php" method="POST"> 	
 		<div class="form-group">
-			<p>Email Atual:</p>
-			<input class="form-control" name="email" type="email" id="email" placeholder="Email atual" required>
-		</div>
-		<div class="form-group">
-			<p>Email Novo:</p>
-			<input class="form-control" name="email2" type="email" id="email" placeholder="Email novo" required>
-		</div>
-		<div class="form-group">
-			<p>Senha:</p>
-			<input class="form-control" name="senha" type="password" id="senha" placeholder="Senha" required>
-		</div>  
+		 <h2> Alterar email </h2>
+			<input class="form-control" name="email" type="email" id="email" placeholder="Email atual" required>			
+			<input class="form-control" name="email2" type="email" id="email" placeholder="Email novo" required>		
+			<input class="form-control" name="senha" type="password" id="senha" placeholder="Senha" required>		
 			<button class="btn btn-primary" type="submit" id="enviar">Alterar Email</button>
+    </div>
 	</form>	
 </div>
 </div>
