@@ -18,6 +18,6 @@ Sistema de busca de receitas, Projeto Final do Curso Técnico em Desenvolvimento
 
 ### [CDU](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/Casosdeuso.md)
 
-### [Casos de Uso] ![Alt Text](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/Modelo/ImagensModelo/grama_ER_de_banco_de_dados_page-0001.pdf.pdf)
+### [Casos de Uso] ![Alt Text](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/ImagensModelo/grama_ER_de_banco_de_dados_page-0001.pdf.pdf)
 
 ### [Modelagem] ![Alt Text](https://github.com/cp2-dc-info-projeto-final/bananinhas-receitas/blob/master/Modelo/ImagensModelo/grama_ER_de_banco_de_dados_page-0001.jpeg)
