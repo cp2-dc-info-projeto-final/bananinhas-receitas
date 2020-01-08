@@ -117,6 +117,7 @@ include "../Home/links.php";
 					<input class="form-control" name="email" type="email" id="email" placeholder="Email atual" required>
 					<input class="form-control" name="senhaAtual" type="password" id="senha1" placeholder="Senha Atual" required>
 					<input class="form-control" name="senhaNova" type="password" id="senha2" placeholder="Senha Nova" required> 
+          <input class="form-control" name="senhaConfirm" type="password" id="senha3" placeholder="Confirmar Senha Nova" required> 
 					<button class="btn btn-primary" type="submit" id="enviar">Alterar senha</button>
         </div>
 			</form>	
